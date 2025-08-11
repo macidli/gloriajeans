@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Coffee Beans",
+    "description": "We roast our beans in small batches to bring out the richest flavors possible.",
+    "imageUrl": "https://www.gloriajeans.com/cdn/shop/files/OurRange_Beverages_579x684_Coffee.jpg?v=1657550832",
+    "buttonText": "Learn More"
+  },
+  {
+    "title": "Handcrafted Beverages",
+    "description": "Indulge in your favorite GJ’s handcrafted beverage, made to satisfy all your cravings.",
+    "imageUrl": "https://www.gloriajeans.com/cdn/shop/files/OurRange_Beverages_579x684_9c49eaff-eb6b-4914-8ce5-5303f78ee850.jpg?v=1724367573",
+    "buttonText": "View Menu"
+  }
+]

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+@import "tailwindcss";
+
+@theme{
+    --font-Montserrat: Montserrat , 'sans-serif';
+}
+
+
+@theme{
+    --breakpoint-nine: 945px;
+    --breakpoint-prexl: 1122px;
+}
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: .8em!important;
+  color: #7a7979 !important;
+  position: absolute;
+  top: 50%;
+  z-index: 2000000;
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid #7a7979;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-next {
+  right: 0px!important;
+}
+
+.swiper-button-prev {
+  left: 0px !important;
+
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.8em !important; /* burada ölçünü dəyiş */
+}
+
+@media only screen and (max-width: 1280px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    font-size: .6em !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+}

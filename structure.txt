@@ -1,0 +1,64 @@
+.
+├── eslint.config.js
+├── favicon.png
+├── index.html
+├── layout
+│   ├── HomeLayout.jsx
+│   ├── MenuLayout.jsx
+│   └── OurStoryLayout.jsx
+├── package-lock.json
+├── package.json
+├── public
+│   └── favicon.png
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── Fonts
+│   │   └── img
+│   │       ├── ftrlogo.avif
+│   │       ├── logomain.avif
+│   │       ├── swip1.webp
+│   │       ├── swip2.webp
+│   │       ├── swip3.webp
+│   │       └── usa.png
+│   ├── components
+│   │   ├── Footer
+│   │   │   ├── Footer.jsx
+│   │   │   ├── FooterAccordion.jsx
+│   │   │   └── FooterData.jsx
+│   │   ├── Header
+│   │   │   ├── CountriesData.js
+│   │   │   ├── Header.jsx
+│   │   │   ├── SideLeftbar.jsx
+│   │   │   └── Upper.jsx
+│   │   └── Main
+│   │       └── pages
+│   │           ├── Home
+│   │           │   ├── CoffeeBeans.jsx
+│   │           │   ├── Lent.jsx
+│   │           │   ├── LocationCards.jsx
+│   │           │   ├── Offerings
+│   │           │   │   ├── Offerings.jsx
+│   │           │   │   ├── OfferingsCard.jsx
+│   │           │   │   └── OfferingsData.js
+│   │           │   ├── Products.jsx
+│   │           │   ├── ProductsData.js
+│   │           │   └── Swiper
+│   │           │       ├── DataSwiper.js
+│   │           │       └── Swiper.jsx
+│   │           ├── Menu
+│   │           │   ├── BottomMenu.jsx
+│   │           │   ├── MainMenu.jsx
+│   │           │   ├── MenuData.js
+│   │           │   ├── SideMenu.jsx
+│   │           │   └── TopImage.jsx
+│   │           └── OurStory
+│   │               ├── OurStory.jsx
+│   │               ├── Section.jsx
+│   │               └── SectionData.js
+│   ├── index.css
+│   └── main.jsx
+├── structure.txt
+└── vite.config.js
+
+17 directories, 45 files

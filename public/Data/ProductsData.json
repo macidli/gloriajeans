@@ -1,0 +1,520 @@
+[
+  {
+    "title": "BLUEBERRY SUNRISE COFFEE",
+    "slug": "blueberry-sunrise-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790",
+    "price": 16.5,
+    "description": "Our Blueberry Sunrise flavored coffee has a fresh blueberry and walnut flavor and aroma. It has a medium body, medium acidity and smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Blueberries",
+      "Flavor": "Blueberries, Walnut & Coffee Cake accents",
+      "Body": "Medium",
+      "Acidity": "Medium",
+      "Finish": "Smooth and clean"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "GROUND",
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355"
+    ],
+    "featured": true
+  },
+  {
+    "title": "BUTTER TOFFEE COFFEE",
+    "slug": "butter-toffee-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+    "price": 16.5,
+    "description": "Our Butter Toffee flavored coffee has a creamy, rich caramel taste, with a warm and buttery toffee accent. The mellow candied aroma, balanced body and acidity of this 100% Arabica coffee makes for a full and satisfying cup. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Caramel Toffee",
+      "Flavor": "Creamy Caramel",
+      "Body": "Medium",
+      "Acidity": "Medium",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "GROUND",
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790",
+      "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355"
+    ],
+    "featured": true
+  },
+  {
+    "title": "CHERRY JUBILEE COFFEE",
+    "slug": "cherry-jubilee-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355",
+    "price": 16.5,
+    "description": "Our Limited Edition Cherry Jubilee is back! This handcrafted flavored coffee has a ripe cherry and vanilla flavor with a subtle caramelized sugar aroma. It has a medium body, medium acidity and smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Cherries and Caramelized Sugar",
+      "Flavor": "Cherry, Vanilla and Caramelized Sugar accents",
+      "Body": "Medium",
+      "Acidity": "Medium",
+      "Finish": "Smooth and clean"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "COCONUT CRÈME COFFEE",
+    "slug": "coconut-creme-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/Coconut_Creme.jpg?v=1661457878",
+    "price": 16.5,
+    "description": "Our Coconut Crème flavored coffee has a creamy coconut flavor and silky-rich texture. This slightly sweet coffee is medium roasted and has a mellow acidity to yield a smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Sweet",
+      "Flavor": "Coconut",
+      "Body": "Medium",
+      "Acidity": "Mellow",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "GROUND",
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/CoconutCremeWB12oz.jpg?v=placeholder",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "COLOMBIAN SUPREMO COFFEE",
+    "slug": "colombian-supremo-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/ColombianSupremo.jpg?v=1661458135",
+    "price": 16.5,
+    "description": "Our Colombian Supremo Single Origin coffee has a rich vanilla, caramel and chocolate flavor and aroma. It is medium-bodied with a bright acidity and has a clean finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Vanilla, Caramel & Chocolate",
+      "Flavor": "Vanilla, Caramel & Chocolate",
+      "Body": "Medium",
+      "Acidity": "Bright",
+      "Finish": "Clean"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/ColombianSupremoWB12oz.jpg?v=placeholder",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "DECAF HOUSE BLEND COFFEE",
+    "slug": "decaf-house-blend-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/Render_DecafHouseBlend.jpg?v=1671661728",
+    "price": 16.5,
+    "description": "Our Decaf House Blend has aromas and flavors that include dried fruit, toasted nuts, chocolate and caramel. Medium bodied coffee with a smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Dried Fruit",
+      "Flavor": "Chocolate, Caramel and Toasted Nuts",
+      "Body": "Medium - Full",
+      "Acidity": "Low - Medium",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/DecafHouseBlendWB12oz.jpg?v=placeholder",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "FRENCH VANILLA SUPREME COFFEE",
+    "slug": "french-vanilla-supreme-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/FrenchVanillaSupreme.jpg?v=1661458306",
+    "price": 16.5,
+    "description": "Our French Vanilla Supreme flavored coffee has a complex floral aroma and a rich, pure vanilla flavor. This subtly sweet, medium-roasted coffee has a mellow body and velvety, smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Floral",
+      "Flavor": "Vanilla",
+      "Body": "Mellow",
+      "Acidity": "Mellow",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "GROUND",
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/FrenchVanillaSupremeWB12oz.jpg?v=placeholder",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "HAZELNUT COFFEE",
+    "slug": "hazelnut-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/Hazlenut.jpg?v=1661458841",
+    "price": 16.5,
+    "description": "Our Hazelnut flavored coffee is smooth and nutty in aroma and has a rich, warm honey flavor. This slightly sweetened coffee is medium-bodied, low in acidity and yields a smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Smooth & Nutty",
+      "Flavor": "Honey",
+      "Body": "Medium",
+      "Acidity": "Low",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "GROUND",
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/HazelnutWB12oz.jpg?v=placeholder",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "IRISH CRÈME COFFEE",
+    "slug": "irish-creme-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/files/Irish_Cream.png?v=1746821595",
+    "price": 16.5,
+    "description": "Our Limited Edition Irish Crème flavored coffee is a balance of Irish Whiskey and cream flavor. It is medium bodied, has a medium acidity and smooth finish. Gloria Jean's Coffees beans and flavoring are non-alcoholic. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Sweet",
+      "Flavor": "Irish Whiskey & Cream",
+      "Body": "Medium",
+      "Acidity": "Medium",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "GROUND",
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/IrishCremeWB12oz.jpg?v=placeholder",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "SPECIAL BLEND AMERICAN COFFEE",
+    "slug": "special-blend-american-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/SpecialBlendAmerican.jpg?v=1661459239",
+    "price": 16.5,
+    "description": "Our Special Blend American coffee is a blend of three distinguished Arabica beans from Central America. It has rich, nutty chocolate and brown sugar aromas, stone fruit flavors and has a medium body and smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Nutty Chocolate & Brown Sugar",
+      "Flavor": "Stone Fruit",
+      "Body": "Medium",
+      "Acidity": "Medium",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "WHOLE BEAN"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      },
+      {
+        "type": "Subscribe And Save",
+        "discount": "10%",
+        "original_price": 16.5,
+        "discounted_price": 14.85
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/SpecialBlendAmericanWB12oz.jpg?v=placeholder",
+      "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+    ],
+    "featured": true
+  },
+  {
+    "title": "TOASTED ALMOND CRÈME COFFEE",
+    "slug": "toasted-almond-creme-coffee",
+    "image": "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeWB12oz.jpg?v=1659727457",
+    "price": 16.5,
+    "description": "Our Limited Edition Flavored Coffee, Toasted Almond Crème, has the aroma of freshly roasted almonds. This medium roasted 100% Arabica coffee exudes earthy and stone fruit flavor notes, has a medium acidity and yields a satisfying body and smooth finish. 100% Arabica coffee beans.",
+    "attributes": {
+      "Aroma": "Toasted Almonds",
+      "Flavor": "Toasted Almonds",
+      "Body": "Medium",
+      "Acidity": "Medium",
+      "Finish": "Smooth"
+    },
+    "note": "* Does not contain nuts or dairy products.",
+    "sizes": [
+      {
+        "label": "12oz",
+        "types": [
+          "WHOLE BEAN",
+          "GROUND"
+        ]
+      }
+    ],
+    "purchase_options": [
+      {
+        "type": "Onetime Purchase",
+        "price": 16.5
+      }
+    ],
+    "tags": [
+      "Nut Free",
+      "Dairy Free",
+      "Gluten Free",
+      "Wheat Free"
+    ],
+    "images": [
+      "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeWB12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeGround12oz.jpg?v=1677080931",
+      "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeCup.jpg?v=1677080931"
+    ],
+    "featured": false
+  }
+]

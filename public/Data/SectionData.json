@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Our Story",
+    "paragraphs": [
+      "Great coffee has been the driving passion for Gloria Jean's Coffees since 1979. From the first store that was opened by Gloria Jean Kvetko in Chicago, Illinois to the 600+ stores across 40 countries in operation today, we have maintained our commitment. We design our own blends and roasts - that's how we maintain our flavor famous consistency and quality.",
+      "Whether you are escaping the daily grind in one of our coffee houses or enjoying one of our premium brews at home, we are committed to delivering you a world-class coffee with every cup.",
+      "Thank you for choosing Gloria Jean's Coffees."
+    ],
+    "image": "https://www.gloriajeans.com/cdn/shop/files/AboutPageBanner_ABitAboutUs_960x567_efa395bb-54db-4f8a-8335-a34c1d91283e.jpg?v=1656573808",
+    "reverse": false
+  },
+  {
+    "title": "Our Mission",
+    "paragraphs": [
+      "Gloria Jean’s Coffees is committed to building a unified family who consistently serve the highest quality coffee and provide outstanding and personalised service in a vibrant store atmosphere."
+    ],
+    "image": "https://www.gloriajeans.com/cdn/shop/files/AboutPageBanner_OurVision_960x567_d4b6d165-9e34-4781-b0da-9a863d7fa7f5.jpg?v=1656573846",
+    "reverse": true
+  },
+  {
+    "title": "Our Values",
+    "paragraphs": [
+      "Our four values reflect who we are, and how we approach everything we do.",
+      "These are not values that change from time to time, situation to situation or person to person, but rather they are the underpinning of our company culture.",
+      "By maintaining these core values, regardless of how large a company we become, we can preserve what has always been special about our brand.",
+      "*Partnerships based on integrity and trust",
+      "*Commitment to excellence and innovation",
+      "*A culture of joy and passion",
+      "*Belief in people, building & changing lives"
+    ],
+    "image": "https://www.gloriajeans.com/cdn/shop/files/about-img3.png?v=1652188358",
+    "reverse": false
+  },
+  {
+    "title": "Sustainability",
+    "paragraphs": [
+      "We take our coffee very seriously at Gloria Jean’s Coffees, so not only does it taste great, but we also make sure we buy from suppliers that look after both their workers and the environment.",
+      "Our coffee beans are sourced from all over the world and from many different farms of all types and sizes – large plantations, co-operative groups and tiny family farms. This means that there is no one size fits all approach to buying responsibly, but we are focused on promoting sustainable farming and a better outcome for all."
+    ],
+    "image": "https://www.gloriajeans.com/cdn/shop/files/AboutPageBanner_Sustainability_960x567_ebf04f9b-cc25-40d6-87ca-8be02d7fdeb0.jpg?v=1656573887",
+    "reverse": true
+  }
+]

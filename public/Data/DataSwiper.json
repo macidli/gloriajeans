@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.gloriajeans.com/cdn/shop/files/Summer_Drink_Range.png?v=1748354503",
+    "gradient": "to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2), rgba(0,0,0,0.0), rgba(0,0,0,0)",
+    "title": "Summer has arrived!",
+    "titleStyle": "text-[1.5em] md:text-[2em] lg:text-[2.4em] font-[800]",
+    "subtitle": "",
+    "paragraphs": [
+      "Let's celebrate the season with the vibrant flavors that evoke sunshine, relaxation and indulgence.",
+      "Introducing our summer handcrafted beverages: Coconut Lime Chiller, Iced Strawberry Matcha, and Mango Berry Chiller!",
+      "Head over to your local <b class=\"font-[800]\">Gloria Jean's Coffees and try one today! ✨</b>"
+    ],
+    "buttonText": "Try one today!"
+  },
+  {
+    "id": 2,
+    "image": "https://www.gloriajeans.com/cdn/shop/files/GJC_FOTS_Summer_WebBanner.png?v=1748362731",
+    "gradient": "to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2), rgba(0,0,0,0.0), rgba(0,0,0,0)",
+    "title": "Ask your barista <br /> about our <span class=\"text-[#f57f29]\">flavor<br /> of the season!</span>",
+    "titleStyle": "text-[1.5em] md:text-[2em] lg:text-[2.4em] uppercase font-[800]",
+    "subtitle": "",
+    "paragraphs": [
+      "Enjoy our classic Flavor of the Season: <strong>Blueberry Sunrise Cold Brew with Handcrafted NEW Coconut Cloud Foam!</strong>",
+      "<strong>Can't make it in store?</strong>  Order our limited-time Blueberry Sunrise coffee beans online to brew & enjoy at home.",
+      "<i>Terms & Conditions apply.</i>"
+    ],
+    "buttonText": "Visit us"
+  },
+  {
+    "id": 3,
+    "image": "https://www.gloriajeans.com/cdn/shop/files/GJC_OnlineOrdering_WebBanner.jpg?v=1696369541",
+    "gradient": "to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2), rgba(0,0,0,0.0), rgba(0,0,0,0)",
+    "title": "<span class=\"text-[#f57f29]\">Skip the line,</span> order online",
+    "titleStyle": "text-[1.5em] md:text-[2em] uppercase lg:text-[2.4em] font-[800]",
+    "subtitle": "",
+    "paragraphs": [
+      "Find your GJ's location and place your order now."
+    ],
+    "buttonText": "Place your order"
+  }
+]
