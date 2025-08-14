@@ -1,198 +1,198 @@
 [
-  {
-    "name": "United States",
-    "url": "https://www.britannica.com/place/United-States",
-    "flag": "https://flagcdn.com/us.svg"
-  },
-  {
-    "name": "Australia",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Australia",
-    "flag": "https://flagcdn.com/au.svg"
-  },
-  {
-    "name": "Azerbaijan",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Azerbaijan",
-    "fallback": "https://www.facebook.com/gloriajeans.az/",
-    "flag": "https://flagcdn.com/az.svg"
-  },
-  {
-    "name": "Bangladesh",
-    "url": "https://gloriajeanscoffeesbd.com/",
-    "fallback": "https://www.facebook.com/gloriajeanscoffeesbd/",
-    "flag": "https://flagcdn.com/bd.svg"
-  },
-  {
-    "name": "Brunei",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Brunei",
-    "fallback": "https://www.facebook.com/GJCBrunei/",
-    "flag": "https://flagcdn.com/bn.svg"
-  },
-  {
-    "name": "Cambodia",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Cambodia",
-    "fallback": "https://www.facebook.com/GloriaJeansCambodia/",
-    "flag": "https://flagcdn.com/kh.svg"
-  },
-  {
-    "name": "North Cyprus",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=North%20Cyprus",
-    "fallback": "https://www.facebook.com/gloriajeanscyprus/",
-    "flag": "https://flagcdn.com/cy.svg"
-  },
-  {
-    "name": "South Cyprus",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=South%20Cyprus",
-    "fallback": "https://www.facebook.com/gloriajeanscyprus/",
-    "flag": "https://flagcdn.com/cy.svg"
-  },
-  {
-    "name": "Timor-Leste",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Timor-Leste",
-    "fallback": "https://www.facebook.com/profile.php?id=100064669783940",
-    "flag": "https://flagcdn.com/tl.svg"
-  },
-  {
-    "name": "Georgia",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Georgia",
-    "fallback": "https://www.facebook.com/gloriajeansgeorgia/",
-    "flag": "https://flagcdn.com/ge.svg"
-  },
-  {
-    "name": "Hungary",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Hungary",
-    "fallback": "https://www.facebook.com/gloriajeanshungary/",
-    "flag": "https://flagcdn.com/hu.svg"
-  },
-  {
-    "name": "India",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=India",
-    "fallback": "https://www.facebook.com/GloriajeansIndia/",
-    "flag": "https://flagcdn.com/in.svg"
-  },
-  {
-    "name": "Indonesia",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Indonesia",
-    "fallback": "https://www.gloriajeans.co.id/",
-    "flag": "https://flagcdn.com/id.svg"
-  },
-  {
-    "name": "Ireland",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Ireland",
-    "fallback": "https://www.facebook.com/gloriajeansireland/",
-    "flag": "https://flagcdn.com/ie.svg"
-  },
-  {
-    "name": "Kazakhstan",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Kazakhstan",
-    "fallback": "https://www.facebook.com/gloriajeanskz/",
-    "flag": "https://flagcdn.com/kz.svg"
-  },
-  {
-    "name": "Malaysia",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Malaysia",
-    "fallback": "https://www.facebook.com/gloriajeansmalaysia/",
-    "flag": "https://flagcdn.com/my.svg"
-  },
-  {
-    "name": "Myanmar",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Myanmar",
-    "fallback": "https://www.facebook.com/Gloriajeansmyanmar/",
-    "flag": "https://flagcdn.com/mm.svg"
-  },
-  {
-    "name": "Maldives",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Maldives",
-    "fallback": "https://www.facebook.com/GloriajeansMaldives/",
-    "flag": "https://flagcdn.com/mv.svg"
-  },
-  {
-    "name": "Mexico",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Mexico",
-    "fallback": "https://www.facebook.com/gloriajeansmexico/",
-    "flag": "https://flagcdn.com/mx.svg"
-  },
-  {
-    "name": "New Zealand",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=New%20Zealand",
-    "fallback": "https://www.facebook.com/gloriajeansnewzealand/",
-    "flag": "https://flagcdn.com/nz.svg"
-  },
-  {
-    "name": "Oman",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Oman",
-    "fallback": "https://www.facebook.com/gloriajeansoman/",
-    "flag": "https://flagcdn.com/om.svg"
-  },
-  {
-    "name": "Pakistan",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Pakistan",
-    "fallback": "https://www.facebook.com/gloriajeanspakistan/",
-    "flag": "https://flagcdn.com/pk.svg"
-  },
-  {
-    "name": "Palestine",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Palestine",
-    "fallback": "https://www.facebook.com/gloriajeanspalestine/",
-    "flag": "https://flagcdn.com/ps.svg"
-  },
-  {
-    "name": "Romania",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Romania",
-    "fallback": "https://www.facebook.com/gloriajeansromania/",
-    "flag": "https://flagcdn.com/ro.svg"
-  },
-  {
-    "name": "Kingdom of Saudi Arabia",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Kingdom%20of%20Saudi%20Arabia",
-    "fallback": "https://www.facebook.com/gloriajeansksa/",
-    "flag": "https://flagcdn.com/sa.svg"
-  },
-  {
-    "name": "Singapore",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Singapore",
-    "fallback": "https://www.facebook.com/gloriajeanssingapore/",
-    "flag": "https://flagcdn.com/sg.svg"
-  },
-  {
-    "name": "South Africa",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=South%20Africa",
-    "fallback": "https://www.facebook.com/gloriajeanssouthafrica/",
-    "flag": "https://flagcdn.com/za.svg"
-  },
-  {
-    "name": "Thailand",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Thailand",
-    "fallback": "https://www.facebook.com/gloriajeansthailand/",
-    "flag": "https://flagcdn.com/th.svg"
-  },
-  {
-    "name": "Turkey",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Turkey",
-    "fallback": "https://www.facebook.com/gloriajeanstr/",
-    "flag": "https://flagcdn.com/tr.svg"
-  },
-  {
-    "name": "United Arab Emirates",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=United%20Arab%20Emirates",
-    "fallback": "https://www.facebook.com/gloriajeansuae/",
-    "flag": "https://flagcdn.com/ae.svg"
-  },
-  {
-    "name": "United Kingdom",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=United%20Kingdom",
-    "fallback": "https://www.facebook.com/gloriajeansuk/",
-    "flag": "https://flagcdn.com/gb.svg"
-  },
-  {
-    "name": "Uzbekistan",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Uzbekistan",
-    "fallback": "https://www.facebook.com/gloriajeansuzbekistan/",
-    "flag": "https://flagcdn.com/uz.svg"
-  },
-  {
-    "name": "Vietnam",
-    "url": "https://www.gloriajeans.com/pages/store-locator?country=Vietnam",
-    "fallback": "https://www.facebook.com/gloriajeansvietnam/",
-    "flag": "https://flagcdn.com/vn.svg"
-  }
-]
+    {
+      "name": "United States",
+      "url": "https://www.britannica.com/place/United-States",
+      "flag": "https://flagcdn.com/us.svg"
+    },
+    {
+      "name": "Australia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Australia",
+      "flag": "https://flagcdn.com/au.svg"
+    },
+    {
+      "name": "Azerbaijan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Azerbaijan",
+      "fallback": "https://www.facebook.com/gloriajeans.az/",
+      "flag": "https://flagcdn.com/az.svg"
+    },
+    {
+      "name": "Bangladesh",
+      "url": "https://gloriajeanscoffeesbd.com/",
+      "fallback": "https://www.facebook.com/gloriajeanscoffeesbd/",
+      "flag": "https://flagcdn.com/bd.svg"
+    },
+    {
+      "name": "Brunei",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Brunei",
+      "fallback": "https://www.facebook.com/GJCBrunei/",
+      "flag": "https://flagcdn.com/bn.svg"
+    },
+    {
+      "name": "Cambodia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Cambodia",
+      "fallback": "https://www.facebook.com/GloriaJeansCambodia/",
+      "flag": "https://flagcdn.com/kh.svg"
+    },
+    {
+      "name": "North Cyprus",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=North%20Cyprus",
+      "fallback": "https://www.facebook.com/gloriajeanscyprus/",
+      "flag": "https://flagcdn.com/cy.svg"
+    },
+    {
+      "name": "South Cyprus",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=South%20Cyprus",
+      "fallback": "https://www.facebook.com/gloriajeanscyprus/",
+      "flag": "https://flagcdn.com/cy.svg"
+    },
+    {
+      "name": "Timor-Leste",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Timor-Leste",
+      "fallback": "https://www.facebook.com/profile.php?id=100064669783940",
+      "flag": "https://flagcdn.com/tl.svg"
+    },
+    {
+      "name": "Georgia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Georgia",
+      "fallback": "https://www.facebook.com/gloriajeansgeorgia/",
+      "flag": "https://flagcdn.com/ge.svg"
+    },
+    {
+      "name": "Hungary",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Hungary",
+      "fallback": "https://www.facebook.com/gloriajeanshungary/",
+      "flag": "https://flagcdn.com/hu.svg"
+    },
+    {
+      "name": "India",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=India",
+      "fallback": "https://www.facebook.com/GloriajeansIndia/",
+      "flag": "https://flagcdn.com/in.svg"
+    },
+    {
+      "name": "Indonesia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Indonesia",
+      "fallback": "https://www.gloriajeans.co.id/",
+      "flag": "https://flagcdn.com/id.svg"
+    },
+    {
+      "name": "Ireland",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Ireland",
+      "fallback": "https://www.facebook.com/gloriajeansireland/",
+      "flag": "https://flagcdn.com/ie.svg"
+    },
+    {
+      "name": "Kazakhstan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Kazakhstan",
+      "fallback": "https://www.facebook.com/gloriajeanskz/",
+      "flag": "https://flagcdn.com/kz.svg"
+    },
+    {
+      "name": "Malaysia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Malaysia",
+      "fallback": "https://www.facebook.com/gloriajeansmalaysia/",
+      "flag": "https://flagcdn.com/my.svg"
+    },
+    {
+      "name": "Myanmar",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Myanmar",
+      "fallback": "https://www.facebook.com/Gloriajeansmyanmar/",
+      "flag": "https://flagcdn.com/mm.svg"
+    },
+    {
+      "name": "Maldives",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Maldives",
+      "fallback": "https://www.facebook.com/GloriajeansMaldives/",
+      "flag": "https://flagcdn.com/mv.svg"
+    },
+    {
+      "name": "Mexico",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Mexico",
+      "fallback": "https://www.facebook.com/gloriajeansmexico/",
+      "flag": "https://flagcdn.com/mx.svg"
+    },
+    {
+      "name": "New Zealand",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=New%20Zealand",
+      "fallback": "https://www.facebook.com/gloriajeansnewzealand/",
+      "flag": "https://flagcdn.com/nz.svg"
+    },
+    {
+      "name": "Oman",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Oman",
+      "fallback": "https://www.facebook.com/gloriajeansoman/",
+      "flag": "https://flagcdn.com/om.svg"
+    },
+    {
+      "name": "Pakistan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Pakistan",
+      "fallback": "https://www.facebook.com/gloriajeanspakistan/",
+      "flag": "https://flagcdn.com/pk.svg"
+    },
+    {
+      "name": "Palestine",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Palestine",
+      "fallback": "https://www.facebook.com/gloriajeanspalestine/",
+      "flag": "https://flagcdn.com/ps.svg"
+    },
+    {
+      "name": "Romania",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Romania",
+      "fallback": "https://www.facebook.com/gloriajeansromania/",
+      "flag": "https://flagcdn.com/ro.svg"
+    },
+    {
+      "name": "Kingdom of Saudi Arabia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Kingdom%20of%20Saudi%20Arabia",
+      "fallback": "https://www.facebook.com/gloriajeansksa/",
+      "flag": "https://flagcdn.com/sa.svg"
+    },
+    {
+      "name": "Singapore",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Singapore",
+      "fallback": "https://www.facebook.com/gloriajeanssingapore/",
+      "flag": "https://flagcdn.com/sg.svg"
+    },
+    {
+      "name": "South Africa",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=South%20Africa",
+      "fallback": "https://www.facebook.com/gloriajeanssouthafrica/",
+      "flag": "https://flagcdn.com/za.svg"
+    },
+    {
+      "name": "Thailand",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Thailand",
+      "fallback": "https://www.facebook.com/gloriajeansthailand/",
+      "flag": "https://flagcdn.com/th.svg"
+    },
+    {
+      "name": "Turkey",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Turkey",
+      "fallback": "https://www.facebook.com/gloriajeanstr/",
+      "flag": "https://flagcdn.com/tr.svg"
+    },
+    {
+      "name": "United Arab Emirates",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=United%20Arab%20Emirates",
+      "fallback": "https://www.facebook.com/gloriajeansuae/",
+      "flag": "https://flagcdn.com/ae.svg"
+    },
+    {
+      "name": "United Kingdom",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=United%20Kingdom",
+      "fallback": "https://www.facebook.com/gloriajeansuk/",
+      "flag": "https://flagcdn.com/gb.svg"
+    },
+    {
+      "name": "Uzbekistan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Uzbekistan",
+      "fallback": "https://www.facebook.com/gloriajeansuzbekistan/",
+      "flag": "https://flagcdn.com/uz.svg"
+    },
+    {
+      "name": "Vietnam",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Vietnam",
+      "fallback": "https://www.facebook.com/gloriajeansvietnam/",
+      "flag": "https://flagcdn.com/vn.svg"
+    }
+  ]

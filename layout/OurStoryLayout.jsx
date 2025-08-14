@@ -1,10 +1,11 @@
 import Footer from "../src/components/Footer/Footer";
 import Header from "../src/components/Header/Header";
+import useTitle from "../src/components/hooks/useTitle";
 import OurStory from "../src/components/Main/pages/OurStory/OurStory";
-import Section from "../src/components/Main/pages/OurStory/Section";
+
 function OurStoryLayout() {
-  return (
-    
+  useTitle("Our Shop")
+  return ( 
      <>
         <Header />
             <main>

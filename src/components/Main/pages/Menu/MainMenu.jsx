@@ -4,9 +4,11 @@ import "aos/dist/aos.css";
 
 import SideMenu from "./SideMenu";
 import BottomMenu from "./BottomMenu";
+import Details from "./Details";
 
 function MainMenu() {
   const [menuData, setMenuData] = useState(null);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   useEffect(() => {
     AOS.init({
@@ -15,35 +17,29 @@ function MainMenu() {
       once: true,
     });
 
-    fetch("..//../../../../public/Data/MenuData.json")
+    fetch("/Data/MenuData.json")
       .then((res) => res.json())
-      .then((data) => {
-        setMenuData(data);
-      })
-      .catch((err) => {
-        console.error("Menu data yüklənmədi:", err);
-      });
+      .then((data) => setMenuData(data))
+      .catch((err) => console.error("Menu data yüklənmədi:", err));
   }, []);
 
   const toId = (str) => str.toLowerCase().replace(/\s+/g, "-");
 
-  if (!menuData) {
-    return <div>Yüklənir...</div>;
-  }
+  if (!menuData) return <div>Yüklənir...</div>;
 
   return (
     <>
-      <div className="min-h-screen px-[20px] md:px-[60px] pt-[30px] md:pt-[80px] pb-[30px] flex">
+      <div className="min-h-screen px-[20px] md:px-[60px] pt-[30px] md:pt-[80px] pb-[30px] flex relative">
         <SideMenu />
         <div className="flex-1">
           <div className="flex flex-col pl-0 md:pl-[30px] w-full">
-            {menuData.map((mainCategory) => (
-              <div key={mainCategory.mainCategory}>
-                {mainCategory.subCategories.map((subCat) => {
+            {menuData.map((mainCategory, mcIndex) => (
+              <div key={mcIndex}>
+                {mainCategory.subCategories.map((subCat, scIndex) => {
                   const id = toId(subCat.name);
                   return (
                     <section
-                      key={subCat.name}
+                      key={scIndex}
                       id={id}
                       className="mb-12 pt-[80px] scroll-mt-[80px]"
                       data-aos="fade-up"
@@ -65,6 +61,7 @@ function MainMenu() {
                             className="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 cursor-pointer"
                             data-aos="fade-up"
                             data-aos-delay={`${i * 100}`}
+                            onClick={() => setSelectedProduct(product)}
                           >
                             <div className="flex flex-col">
                               <div className="border-[2px] border-[#ededed67] p-[20px] flex justify-center items-center">
@@ -94,6 +91,13 @@ function MainMenu() {
           </div>
         </div>
       </div>
+
+      {selectedProduct && (
+        <Details
+          product={selectedProduct}
+          onClose={() => setSelectedProduct(null)}
+        />
+      )}
 
       <BottomMenu />
     </>

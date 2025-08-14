@@ -9,7 +9,7 @@ function BottomMenu() {
   const [activeId, setActiveId] = useState(null);
 
   useEffect(() => {
-    fetch("../../../../../public/Data/MenuData.json")
+    fetch("../../../../../public/Data/")
       .then((res) => res.json())
       .then((data) => {
         setMenuData(data);

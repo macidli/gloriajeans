@@ -6,8 +6,10 @@ import Products from '../src/components/Main/pages/Home/Products'
 import LocationCards from '../src/components/Main/pages/Home/LocationCards'
 import Footer from '../src/components/Footer/Footer'
 import Offerings from '../src/components/Main/pages/Home/Offerings/Offerings'
+import useTitle from '../src/components/hooks/useTitle'
 
 const HomeLayout = () => {
+   useTitle("Gloria Jean’s Coffees: Gourmet Flavors, Flavor Famous");
   return (
     <>
       <Header />

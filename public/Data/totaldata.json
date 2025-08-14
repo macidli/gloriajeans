@@ -1,0 +1,1883 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "url": "https://www.britannica.com/place/United-States",
+      "flag": "https://flagcdn.com/us.svg"
+    },
+    {
+      "name": "Australia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Australia",
+      "flag": "https://flagcdn.com/au.svg"
+    },
+    {
+      "name": "Azerbaijan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Azerbaijan",
+      "fallback": "https://www.facebook.com/gloriajeans.az/",
+      "flag": "https://flagcdn.com/az.svg"
+    },
+    {
+      "name": "Bangladesh",
+      "url": "https://gloriajeanscoffeesbd.com/",
+      "fallback": "https://www.facebook.com/gloriajeanscoffeesbd/",
+      "flag": "https://flagcdn.com/bd.svg"
+    },
+    {
+      "name": "Brunei",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Brunei",
+      "fallback": "https://www.facebook.com/GJCBrunei/",
+      "flag": "https://flagcdn.com/bn.svg"
+    },
+    {
+      "name": "Cambodia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Cambodia",
+      "fallback": "https://www.facebook.com/GloriaJeansCambodia/",
+      "flag": "https://flagcdn.com/kh.svg"
+    },
+    {
+      "name": "North Cyprus",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=North%20Cyprus",
+      "fallback": "https://www.facebook.com/gloriajeanscyprus/",
+      "flag": "https://flagcdn.com/cy.svg"
+    },
+    {
+      "name": "South Cyprus",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=South%20Cyprus",
+      "fallback": "https://www.facebook.com/gloriajeanscyprus/",
+      "flag": "https://flagcdn.com/cy.svg"
+    },
+    {
+      "name": "Timor-Leste",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Timor-Leste",
+      "fallback": "https://www.facebook.com/profile.php?id=100064669783940",
+      "flag": "https://flagcdn.com/tl.svg"
+    },
+    {
+      "name": "Georgia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Georgia",
+      "fallback": "https://www.facebook.com/gloriajeansgeorgia/",
+      "flag": "https://flagcdn.com/ge.svg"
+    },
+    {
+      "name": "Hungary",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Hungary",
+      "fallback": "https://www.facebook.com/gloriajeanshungary/",
+      "flag": "https://flagcdn.com/hu.svg"
+    },
+    {
+      "name": "India",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=India",
+      "fallback": "https://www.facebook.com/GloriajeansIndia/",
+      "flag": "https://flagcdn.com/in.svg"
+    },
+    {
+      "name": "Indonesia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Indonesia",
+      "fallback": "https://www.gloriajeans.co.id/",
+      "flag": "https://flagcdn.com/id.svg"
+    },
+    {
+      "name": "Ireland",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Ireland",
+      "fallback": "https://www.facebook.com/gloriajeansireland/",
+      "flag": "https://flagcdn.com/ie.svg"
+    },
+    {
+      "name": "Kazakhstan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Kazakhstan",
+      "fallback": "https://www.facebook.com/gloriajeanskz/",
+      "flag": "https://flagcdn.com/kz.svg"
+    },
+    {
+      "name": "Malaysia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Malaysia",
+      "fallback": "https://www.facebook.com/gloriajeansmalaysia/",
+      "flag": "https://flagcdn.com/my.svg"
+    },
+    {
+      "name": "Myanmar",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Myanmar",
+      "fallback": "https://www.facebook.com/Gloriajeansmyanmar/",
+      "flag": "https://flagcdn.com/mm.svg"
+    },
+    {
+      "name": "Maldives",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Maldives",
+      "fallback": "https://www.facebook.com/GloriajeansMaldives/",
+      "flag": "https://flagcdn.com/mv.svg"
+    },
+    {
+      "name": "Mexico",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Mexico",
+      "fallback": "https://www.facebook.com/gloriajeansmexico/",
+      "flag": "https://flagcdn.com/mx.svg"
+    },
+    {
+      "name": "New Zealand",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=New%20Zealand",
+      "fallback": "https://www.facebook.com/gloriajeansnewzealand/",
+      "flag": "https://flagcdn.com/nz.svg"
+    },
+    {
+      "name": "Oman",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Oman",
+      "fallback": "https://www.facebook.com/gloriajeansoman/",
+      "flag": "https://flagcdn.com/om.svg"
+    },
+    {
+      "name": "Pakistan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Pakistan",
+      "fallback": "https://www.facebook.com/gloriajeanspakistan/",
+      "flag": "https://flagcdn.com/pk.svg"
+    },
+    {
+      "name": "Palestine",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Palestine",
+      "fallback": "https://www.facebook.com/gloriajeanspalestine/",
+      "flag": "https://flagcdn.com/ps.svg"
+    },
+    {
+      "name": "Romania",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Romania",
+      "fallback": "https://www.facebook.com/gloriajeansromania/",
+      "flag": "https://flagcdn.com/ro.svg"
+    },
+    {
+      "name": "Kingdom of Saudi Arabia",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Kingdom%20of%20Saudi%20Arabia",
+      "fallback": "https://www.facebook.com/gloriajeansksa/",
+      "flag": "https://flagcdn.com/sa.svg"
+    },
+    {
+      "name": "Singapore",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Singapore",
+      "fallback": "https://www.facebook.com/gloriajeanssingapore/",
+      "flag": "https://flagcdn.com/sg.svg"
+    },
+    {
+      "name": "South Africa",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=South%20Africa",
+      "fallback": "https://www.facebook.com/gloriajeanssouthafrica/",
+      "flag": "https://flagcdn.com/za.svg"
+    },
+    {
+      "name": "Thailand",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Thailand",
+      "fallback": "https://www.facebook.com/gloriajeansthailand/",
+      "flag": "https://flagcdn.com/th.svg"
+    },
+    {
+      "name": "Turkey",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Turkey",
+      "fallback": "https://www.facebook.com/gloriajeanstr/",
+      "flag": "https://flagcdn.com/tr.svg"
+    },
+    {
+      "name": "United Arab Emirates",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=United%20Arab%20Emirates",
+      "fallback": "https://www.facebook.com/gloriajeansuae/",
+      "flag": "https://flagcdn.com/ae.svg"
+    },
+    {
+      "name": "United Kingdom",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=United%20Kingdom",
+      "fallback": "https://www.facebook.com/gloriajeansuk/",
+      "flag": "https://flagcdn.com/gb.svg"
+    },
+    {
+      "name": "Uzbekistan",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Uzbekistan",
+      "fallback": "https://www.facebook.com/gloriajeansuzbekistan/",
+      "flag": "https://flagcdn.com/uz.svg"
+    },
+    {
+      "name": "Vietnam",
+      "url": "https://www.gloriajeans.com/pages/store-locator?country=Vietnam",
+      "fallback": "https://www.facebook.com/gloriajeansvietnam/",
+      "flag": "https://flagcdn.com/vn.svg"
+    }
+  ],
+  "dataswiper": [
+    {
+      "id": 1,
+      "image": "https://www.gloriajeans.com/cdn/shop/files/Summer_Drink_Range.png?v=1748354503",
+      "gradient": "to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2), rgba(0,0,0,0.0), rgba(0,0,0,0)",
+      "title": "Summer has arrived!",
+      "titleStyle": "text-[1.5em] md:text-[2em] lg:text-[2.4em] font-[800]",
+      "subtitle": "",
+      "paragraphs": [
+        "Let's celebrate the season with the vibrant flavors that evoke sunshine, relaxation and indulgence.",
+        "Introducing our summer handcrafted beverages: Coconut Lime Chiller, Iced Strawberry Matcha, and Mango Berry Chiller!",
+        "Head over to your local <b class=\"font-[800]\">Gloria Jean's Coffees and try one today! ✨</b>"
+      ],
+      "buttonText": "Try one today!"
+    },
+    {
+      "id": 2,
+      "image": "https://www.gloriajeans.com/cdn/shop/files/GJC_FOTS_Summer_WebBanner.png?v=1748362731",
+      "gradient": "to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2), rgba(0,0,0,0.0), rgba(0,0,0,0)",
+      "title": "Ask your barista <br /> about our <span class=\"text-[#f57f29]\">flavor<br /> of the season!</span>",
+      "titleStyle": "text-[1.5em] md:text-[2em] lg:text-[2.4em] uppercase font-[800]",
+      "subtitle": "",
+      "paragraphs": [
+        "Enjoy our classic Flavor of the Season: <strong>Blueberry Sunrise Cold Brew with Handcrafted NEW Coconut Cloud Foam!</strong>",
+        "<strong>Can't make it in store?</strong>  Order our limited-time Blueberry Sunrise coffee beans online to brew & enjoy at home.",
+        "<i>Terms & Conditions apply.</i>"
+      ],
+      "buttonText": "Visit us"
+    },
+    {
+      "id": 3,
+      "image": "https://www.gloriajeans.com/cdn/shop/files/GJC_OnlineOrdering_WebBanner.jpg?v=1696369541",
+      "gradient": "to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2), rgba(0,0,0,0.0), rgba(0,0,0,0)",
+      "title": "<span class=\"text-[#f57f29]\">Skip the line,</span> order online",
+      "titleStyle": "text-[1.5em] md:text-[2em] uppercase lg:text-[2.4em] font-[800]",
+      "subtitle": "",
+      "paragraphs": [
+        "Find your GJ's location and place your order now."
+      ],
+      "buttonText": "Place your order"
+    }
+  ],
+  "menu": [
+    {
+      "mainCategory": "Cold Drinks",
+      "subCategories": [
+        {
+          "name": "Cookie Chillers",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_CookieChillers_1476x298_0dd2cb1f-51f2-4811-922c-600dbe928033.jpg?v=1663003914",
+          "products": [
+            {
+              "name": "Madagascar Vanilla Caramel",
+              "category": "Cookie Chillers",
+              "description": "A Gloria Jean's favorite! Made with our signature cappuccino Chiller base, Madagascar Vanilla powder, GJ's caramel syrup and is topped with whipped cream and caramel sauce.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Madagascar_Vanilla_Caramel.png?v=1657614826",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 320,
+                "fat_calories": 50,
+                "fat": "3g",
+                "saturated_fat": "2g",
+                "trans_fat": "0g",
+                "cholesterol": "10mg",
+                "sodium": "80mg",
+                "carbohydrates": "30g",
+                "fiber": "0g",
+                "sugar": "20g",
+                "protein": "5g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "White Chocolate Cookie",
+              "category": "Cookie Chillers",
+              "description": "This delicious Chiller is made with our signature cappuccino chiller base, white chocolate powder, Oreo cookies and is topped with whipped cream and chocolate sprinkles.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_WhiteChocolateCookie.png?v=1658216417",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 440,
+                "fat_calories": 110,
+                "fat": "9g",
+                "saturated_fat": "7g",
+                "trans_fat": "0g",
+                "cholesterol": "15mg",
+                "sodium": "260mg",
+                "carbohydrates": "78g",
+                "fiber": "0g",
+                "sugar": "36g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "White Chocolate Caramel Cookie",
+              "category": "Cookie Chillers",
+              "description": "Our most popular Chiller is made with our signature cappuccino chiller base, white chocolate powder, GJ's caramel syrup, Oreo cookies and is topped with whipped cream and caramel sauce.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_White_Chocolate_Caramel_Cookie_Caramel.png?v=1657614426",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 470,
+                "fat_calories": 120,
+                "fat": "15g",
+                "saturated_fat": "10g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "310mg",
+                "carbohydrates": "81g",
+                "fiber": "0g",
+                "sugar": "67g",
+                "protein": "7g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Espresso Chillers",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_EspressoChiller_1476x298_3c192b24-1db7-4ae2-9bf4-af943774345f.jpg?v=1659091534",
+          "products": [
+            {
+              "name": "Chocolate Caramel Turtle",
+              "category": "Espresso Chillers",
+              "description": "An icy blend of our signature GJ Espresso Blend, 2% milk, Madagascar Vanilla powder, dark chocolate powder, caramel pecan syrup and is topped with whipped cream and caramel sauce.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Chocoalte_Caramel_Turtle.png?v=1657615824",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 430,
+                "fat_calories": 100,
+                "fat": "12g",
+                "saturated_fat": "7g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "270mg",
+                "carbohydrates": "78g",
+                "fiber": "1g",
+                "sugar": "60g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Ultimate Cookie",
+              "category": "Espresso Chillers",
+              "description": "This tasty Espresso Chiller is made with our GJ's Espresso blend, 2% milk, GJ's caramel syrup, Madagascar Vanilla powder, Oreo cookies, and is topped with whipped cream and caramel sauce.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_UltimateCookie.png?v=1658216354",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 320,
+                "fat_calories": 50,
+                "fat": "3g",
+                "saturated_fat": "2g",
+                "trans_fat": "0g",
+                "cholesterol": "10mg",
+                "sodium": "80mg",
+                "carbohydrates": "30g",
+                "fiber": "0g",
+                "sugar": "20g",
+                "protein": "5g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Ultimate Chocolate",
+              "category": "Espresso Chillers",
+              "description": "A delicious espresso Chiller made with GJ's Espresso blend, 2% milk, dark chocolate and cream cocoa powders and is topped with whipped cream and caramel sauce.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Ultimate_Chocolate.png?v=1657614741",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 300,
+                "fat_calories": 60,
+                "fat": "6g",
+                "saturated_fat": "5g",
+                "trans_fat": "0g",
+                "cholesterol": "12mg",
+                "sodium": "260mg",
+                "carbohydrates": "52g",
+                "fiber": "1g",
+                "sugar": "44g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Voltage",
+              "category": "Espresso Chillers",
+              "description": "A delicious espresso Chiller blended to perfection with Madagascar Vanilla powder, 2% milk and fresh espresso beans. Topped with a shot of espresso!",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Voltage.png?v=1658216373",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 340,
+                "fat_calories": 40,
+                "fat": "5g",
+                "saturated_fat": "7g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "180mg",
+                "carbohydrates": "80g",
+                "fiber": "0g",
+                "sugar": "35g",
+                "protein": "7g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Fruit Chillers & Smoothies",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_FruitChillers_1476x298_7de87923-2fab-465c-b40c-4888064fc6c8.jpg?v=1659091556",
+          "products": [
+            {
+              "name": "Wildberry Chiller",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "We're Wild for wildberry! Made with Island Oasis Wildberry and crushed ice, this Chiller is the ultimate treat!",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Wildberry.png?v=1658216452",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 280,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "0mg",
+                "carbohydrates": "68g",
+                "fiber": "0g",
+                "sugar": "66g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Strawberry Smoothie",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "This Gloria Jean's favorite is made with Island Oasis Strawberry and Island Oasis yogurt.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Strawberry_Smoothie.png?v=1658216335",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 660,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "4mg",
+                "sodium": "100mg",
+                "carbohydrates": "78g",
+                "fiber": "2g",
+                "sugar": "71g",
+                "protein": "2g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Wildberry Smoothie",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "Refresh with wildberry! This delicious smoothie is made with Island Oasis Wildberry and Island Oasis yogurt.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Wildberry_Smoothie.png?v=1660236853",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 370,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "4mg",
+                "sodium": "100mg",
+                "carbohydrates": "86g",
+                "fiber": "0g",
+                "sugar": "83g",
+                "protein": "2g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Banana Smoothie",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "Calling all Banana-Lovers! This Chiller is made with Island Oasis banana and Island Oasis yogurt.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Banana_Smoothie.png?v=1658215899",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 370,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "4mg",
+                "sodium": "100mg",
+                "carbohydrates": "86g",
+                "fiber": "0g",
+                "sugar": "83g",
+                "protein": "2g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Raspberry Smoothie",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "This delicious Chiller is made with Island Oasis Raspberry and Island Oasis yogurt.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Rasberry_Smoothie.png?v=1658216306",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 350,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "4mg",
+                "sodium": "100mg",
+                "carbohydrates": "84g",
+                "fiber": "2g",
+                "sugar": "78g",
+                "protein": "2g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Mango Smoothie",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "This refreshing Chiller is made with Island Oasis Mango and Island Oasis yogurt.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Mango_Smoothie.png?v=1658216213",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 330,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "4mg",
+                "sodium": "100mg",
+                "carbohydrates": "78g",
+                "fiber": "0g",
+                "sugar": "71g",
+                "protein": "2g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Banana Chiller",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "Calling all Banana-Lovers! This Chiller is made with Island Oasis banana and water.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_BananaFruitChiller.png?v=1657615847",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 280,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "0mg",
+                "carbohydrates": "68g",
+                "fiber": "0g",
+                "sugar": "66g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Raspberry Chiller",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "This delicious Chiller is made with Island Oasis Raspberry and water.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_RasberryFruitChiller.png?v=1658216320",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 260,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "0mg",
+                "carbohydrates": "66g",
+                "fiber": "2g",
+                "sugar": "61g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Mango Chiller",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "This refreshing Chiller is made with Island Oasis Mango and water.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_MangoChiller.png?v=1658216230",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 240,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "0mg",
+                "carbohydrates": "60g",
+                "fiber": "0g",
+                "sugar": "54g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Strawberry Chiller",
+              "category": "Fruit Chillers & Smoothies",
+              "description": "This Gloria Jean's favorite is made with Island Oasis Strawberry and water.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Strawberry_FruitChiller.png?v=1657614762",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 240,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "0mg",
+                "carbohydrates": "60g",
+                "fiber": "2g",
+                "sugar": "54g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Mocha Chillers",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_Mocha.jpg?v=1659091572",
+          "products": [
+            {
+              "name": "Mint Chocolate Bomb",
+              "category": "Mocha Chillers",
+              "description": "A Gloria Jean's classic made with our signature mocha base, dark chocolate and mint syrup is topped with whipped cream and chocolate sprinkles.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Mint_Chocolate_Bomb.png?v=1658216244",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 300,
+                "fat_calories": 60,
+                "fat": "6g",
+                "saturated_fat": "5g",
+                "trans_fat": "0g",
+                "cholesterol": "12mg",
+                "sodium": "260mg",
+                "carbohydrates": "52g",
+                "fiber": "1g",
+                "sugar": "44g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Coco Loco",
+              "category": "Mocha Chillers",
+              "description": "This Gloria Jean's original is made with our signature mocha, dark chocolate powder and is topped with whipped cream and chocolate sprinkles.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_CocoLoco_Chiller.png?v=1658215984",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 380,
+                "fat_calories": 45,
+                "fat": "5g",
+                "saturated_fat": "4g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "170mg",
+                "carbohydrates": "78g",
+                "fiber": "1g",
+                "sugar": "74g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Over Ice",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_OverIce_1476x298_d7b48712-b961-41bb-8196-4cea3da07f30.jpg?v=1656574321",
+          "products": [
+            {
+              "name": "Iced Chai Latte",
+              "category": "Over Ice",
+              "description": "Made with silky textured milk and Oregon Chai Tea over ice.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Iced_Chai_Latte.png?v=1658216160",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 190,
+                "fat_calories": 45,
+                "fat": "5g",
+                "saturated_fat": "4g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "80mg",
+                "carbohydrates": "30g",
+                "fiber": "0g",
+                "sugar": "27g",
+                "protein": "5g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Iced Latte",
+              "category": "Over Ice",
+              "description": "The classic taste of GJ's Espresso Blend and 2% milk.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Iced_Chai_Latte.png?v=1658216160",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 130,
+                "fat_calories": 40,
+                "fat": "5g",
+                "saturated_fat": "3g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "140mg",
+                "carbohydrates": "13g",
+                "fiber": "0g",
+                "sugar": "13g",
+                "protein": "9g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Iced Mocha",
+              "category": "Over Ice",
+              "description": "A savory blend of GJ's Espresso, creamy cocoa powder and 2% milk served over ice.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_IcedMocha.png?v=1657615656",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 300,
+                "fat_calories": 80,
+                "fat": "9g",
+                "saturated_fat": "7g",
+                "trans_fat": "0g",
+                "cholesterol": "15mg",
+                "sodium": "320mg",
+                "carbohydrates": "42g",
+                "fiber": "1g",
+                "sugar": "36g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Iced Cappuccino",
+              "category": "Over Ice",
+              "description": "A GJ's classic. Our signature cappuccino Chiller base served over ice.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226__Iced_Cappuccino.png?v=1658215872",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 390,
+                "fat_calories": 100,
+                "fat": "12g",
+                "saturated_fat": "9g",
+                "trans_fat": "0g",
+                "cholesterol": "30mg",
+                "sodium": "260mg",
+                "carbohydrates": "40g",
+                "fiber": "0g",
+                "sugar": "35g",
+                "protein": "10g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Nitro Cold Brew",
+              "category": "Over Ice",
+              "description": "Our signature Cold Brew coffee served chilled and infused with nitrogen gas to create a smooth, rich texture.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_NitroColdbrew.png?v=1657614785",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 5,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "10mg",
+                "carbohydrates": "2g",
+                "fiber": "0g",
+                "sugar": "0g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Signature Iced Coffee",
+              "category": "Over Ice",
+              "description": "Our delicious chilled coffee served over ice.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_IcedCoffee.png?v=1657615688",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 5,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "10mg",
+                "carbohydrates": "2g",
+                "fiber": "0g",
+                "sugar": "0g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Signature Cold Brew",
+              "category": "Over Ice",
+              "description": "Our signature coffee is steeped for up to 24 hours and served over ice.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_.ColdBrewpng.png?v=1657615934",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 5,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "10mg",
+                "carbohydrates": "2g",
+                "fiber": "0g",
+                "sugar": "0g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Un-Coffee Chillers",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_UNCOFFEE_1.jpg?v=1659091595",
+          "products": [
+            {
+              "name": "Cookie Crumble",
+              "category": "Un-Coffee Chillers",
+              "description": "An icy blend of Island Oasis ice cream mix, 2% milk, Madagascar Vanilla powder and Oreo cookie crumbles and is topped with whipped cream and chocolate sprinkles.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_CookieCrumble.png?v=1658216109",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 470,
+                "fat_calories": 120,
+                "fat": "15g",
+                "saturated_fat": "10g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "310mg",
+                "carbohydrates": "81g",
+                "fiber": "0g",
+                "sugar": "67g",
+                "protein": "7g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Vanilla Caramel Avalanche",
+              "category": "Un-Coffee Chillers",
+              "description": "A vanilla lover's treat! Made with Island Oasis ice cream mix, 2% milk, Madagascar Vanilla powder and GJ's caramel syrup.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Vanilla_Caramel_Avalanche.png?v=1657614470",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 470,
+                "fat_calories": 120,
+                "fat": "15g",
+                "saturated_fat": "10g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "310mg",
+                "carbohydrates": "81g",
+                "fiber": "0g",
+                "sugar": "67g",
+                "protein": "7g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Chocolate Avalanche",
+              "category": "Un-Coffee Chillers",
+              "description": "This chocolate treat is made with Island Oasis ice cream mix, 2% milk, chocolate fudge powder, and is topped with whipped cream and chocolate sprinkles.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_ChocolateAvalance.png?v=1658215940",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 420,
+                "fat_calories": 40,
+                "fat": "5g",
+                "saturated_fat": "4g",
+                "trans_fat": "0g",
+                "cholesterol": "15mg",
+                "sodium": "160mg",
+                "carbohydrates": "45g",
+                "fiber": "1g",
+                "sugar": "39g",
+                "protein": "8g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Chocolate Caramel Avalanche",
+              "category": "Un-Coffee Chillers",
+              "description": "Made with silky textured steamed 2% milk, perfectly extracted GJ's Espresso blend, Madagascar Vanilla powder, dark chocolate powder, caramel pecan syrup and is topped with whipped cream and caramel sauce.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_Chocolate_Caramel_Avalanche.png?v=1657615805",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 460,
+                "fat_calories": 110,
+                "fat": "10g",
+                "saturated_fat": "8g",
+                "trans_fat": "0g",
+                "cholesterol": "18mg",
+                "sodium": "300mg",
+                "carbohydrates": "73g",
+                "fiber": "1g",
+                "sugar": "60g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mainCategory": "Hot Drinks",
+      "subCategories": [
+        {
+          "name": "American Classics",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_AmericanClassics_1476x298_d0a045cc-ec6b-4726-b0d2-3430c73b7c1f.jpg?v=1659091617",
+          "products": [
+            {
+              "name": "Mocha Caramel Latte",
+              "category": "Hot Drinks",
+              "description": "Made with silky textured milk, GJ's Espresso Blend, GJ caramel syrup, creamy cocoa and is topped with whipped cream and caramel sauce.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_fe09b9b6-0f3e-42bd-9e33-701ff7d883b2.png?v=1657617641",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 240,
+                "fat_calories": 0,
+                "fat": "7g",
+                "saturated_fat": "5g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "100mg",
+                "carbohydrates": "28g",
+                "fiber": "0g",
+                "sugar": "43g",
+                "protein": "8g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Café Mocha",
+              "category": "Hot Drinks",
+              "description": "Made with silky textured milk, GJ's Espresso Blend, creamy cocoa and is topped with whipped cream.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_fe09b9b6-0f3e-42bd-9e33-701ff7d883b2.png?v=1657617641",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 320,
+                "fat_calories": 100,
+                "fat": "11g",
+                "saturated_fat": "9g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "325mg",
+                "carbohydrates": "44g",
+                "fiber": "0g",
+                "sugar": "38g",
+                "protein": "8g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "White Chocolate Mocha",
+              "category": "Hot Drinks",
+              "description": "Caramel and white chocolate combined with fresh espresso and steamed milk.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_fe09b9b6-0f3e-42bd-9e33-701ff7d883b2.png?v=1657617641",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 260,
+                "fat_calories": 50,
+                "fat": "12g",
+                "saturated_fat": "9g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "90mg",
+                "carbohydrates": "28g",
+                "fiber": "0g",
+                "sugar": "40g",
+                "protein": "8g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Vanilla Caramel Latte",
+              "category": "Hot Drinks",
+              "description": "Made with silky textured milk, GJ's Espresso Blend, Madagascar Vanilla syrup and GJ's caramel syrup.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_fe09b9b6-0f3e-42bd-9e33-701ff7d883b2.png?v=1657617641",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 220,
+                "fat_calories": 40,
+                "fat": "5g",
+                "saturated_fat": "3g",
+                "trans_fat": "0g",
+                "cholesterol": "25mg",
+                "sodium": "125mg",
+                "carbohydrates": "32g",
+                "fiber": "0g",
+                "sugar": "32g",
+                "protein": "8g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Madagascar Vanilla Latte",
+              "category": "Hot Drinks",
+              "description": "Made with silky textured milk, GJ's Espresso Blend and vanilla syrup.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_fe09b9b6-0f3e-42bd-9e33-701ff7d883b2.png?v=1657617641",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 200,
+                "fat_calories": 30,
+                "fat": "5g",
+                "saturated_fat": "3g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "125mg",
+                "carbohydrates": "32g",
+                "fiber": "0g",
+                "sugar": "32g",
+                "protein": "8g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        },
+        {
+          "name": "European Classics",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_EuropeanClassics_1476x298_b02731ff-e67c-47bb-bf0a-b34b10d7381f.jpg?v=1659091630",
+          "products": [
+            {
+              "name": "Latte",
+              "category": "European Classics",
+              "description": "Made with silky textured milk and GJ's Espresso Blend.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_8eb1c4bf-612f-4054-bae7-af5f609bc7f1.png?v=1657617589",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 130,
+                "fat_calories": 40,
+                "fat": "5g",
+                "saturated_fat": "3g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "125mg",
+                "carbohydrates": "12g",
+                "fiber": "0g",
+                "sugar": "12g",
+                "protein": "8g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Cappuccino",
+              "category": "European Classics",
+              "description": "Made with silky textured milk, GJ's Espresso Blend is topped with dark chocolate powder.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_8eb1c4bf-612f-4054-bae7-af5f609bc7f1.png?v=1657617589",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 110,
+                "fat_calories": 30,
+                "fat": "5g",
+                "saturated_fat": "3g",
+                "trans_fat": "0g",
+                "cholesterol": "20mg",
+                "sodium": "100mg",
+                "carbohydrates": "12g",
+                "fiber": "0g",
+                "sugar": "10g",
+                "protein": "7g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Americano",
+              "category": "European Classics",
+              "description": "GJ's Espresso Blend and hot water.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_8eb1c4bf-612f-4054-bae7-af5f609bc7f1.png?v=1657617589",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 5,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "10mg",
+                "carbohydrates": "2g",
+                "fiber": "0g",
+                "sugar": "0g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            },
+            {
+              "name": "Espresso",
+              "category": "European Classics",
+              "description": "GJ's Espresso Blend (choose 1, 2 or 3 shots).",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_8eb1c4bf-612f-4054-bae7-af5f609bc7f1.png?v=1657617589",
+              "sizes": [
+                "Single"
+              ],
+              "nutritional_guide": {
+                "calories": 5,
+                "fat_calories": 0,
+                "fat": "0g",
+                "saturated_fat": "0g",
+                "trans_fat": "0g",
+                "cholesterol": "0mg",
+                "sodium": "10mg",
+                "carbohydrates": "1g",
+                "fiber": "0g",
+                "sugar": "0g",
+                "protein": "0g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Hot Teas & Cocoas",
+          "bannerImage": "https://www.gloriajeans.com/cdn/shop/files/DrinkMenuPageBanner_HotTeas.jpg?v=1659091642",
+          "products": [
+            {
+              "name": "Chai Latte",
+              "category": "Hot Teas & Cocoas",
+              "description": "Made with silky textured milk and Oregon Chai.",
+              "image": "https://www.gloriajeans.com/cdn/shop/articles/Product_Menu_Image_226x226_HotDrink_f5c3a1db-bdbc-4374-a7a5-5fbf1de725c6.png?v=1657617533",
+              "sizes": [
+                "Small",
+                "Regular",
+                "Large"
+              ],
+              "nutritional_guide": {
+                "calories": 230,
+                "fat_calories": 30,
+                "fat": "4g",
+                "saturated_fat": "2g",
+                "trans_fat": "0g",
+                "cholesterol": "15mg",
+                "sodium": "120mg",
+                "carbohydrates": "9g",
+                "fiber": "0g",
+                "sugar": "40g",
+                "protein": "6g",
+                "note": "* 2,000 calories a day is used for general nutrition advice, but calorie needs vary."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "offering": [
+    {
+      "title": "Coffee Beans",
+      "description": "We roast our beans in small batches to bring out the richest flavors possible.",
+      "imageUrl": "https://www.gloriajeans.com/cdn/shop/files/OurRange_Beverages_579x684_Coffee.jpg?v=1657550832",
+      "buttonText": "Learn More"
+    },
+    {
+      "title": "Handcrafted Beverages",
+      "description": "Indulge in your favorite GJ’s handcrafted beverage, made to satisfy all your cravings.",
+      "imageUrl": "https://www.gloriajeans.com/cdn/shop/files/OurRange_Beverages_579x684_9c49eaff-eb6b-4914-8ce5-5303f78ee850.jpg?v=1724367573",
+      "buttonText": "View Menu"
+    }
+  ],
+  "products": [
+    {
+      "title": "BLUEBERRY SUNRISE COFFEE",
+      "slug": "blueberry-sunrise-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790",
+      "price": 16.5,
+      "description": "Our Blueberry Sunrise flavored coffee has a fresh blueberry and walnut flavor and aroma. It has a medium body, medium acidity and smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Blueberries",
+        "Flavor": "Blueberries, Walnut & Coffee Cake accents",
+        "Body": "Medium",
+        "Acidity": "Medium",
+        "Finish": "Smooth and clean"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "GROUND",
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355"
+      ],
+      "featured": true
+    },
+    {
+      "title": "BUTTER TOFFEE COFFEE",
+      "slug": "butter-toffee-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+      "price": 16.5,
+      "description": "Our Butter Toffee flavored coffee has a creamy, rich caramel taste, with a warm and buttery toffee accent. The mellow candied aroma, balanced body and acidity of this 100% Arabica coffee makes for a full and satisfying cup. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Caramel Toffee",
+        "Flavor": "Creamy Caramel",
+        "Body": "Medium",
+        "Acidity": "Medium",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "GROUND",
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790",
+        "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355"
+      ],
+      "featured": true
+    },
+    {
+      "title": "CHERRY JUBILEE COFFEE",
+      "slug": "cherry-jubilee-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355",
+      "price": 16.5,
+      "description": "Our Limited Edition Cherry Jubilee is back! This handcrafted flavored coffee has a ripe cherry and vanilla flavor with a subtle caramelized sugar aroma. It has a medium body, medium acidity and smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Cherries and Caramelized Sugar",
+        "Flavor": "Cherry, Vanilla and Caramelized Sugar accents",
+        "Body": "Medium",
+        "Acidity": "Medium",
+        "Finish": "Smooth and clean"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/files/Cherry_Jubilee.png?v=1730748355",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "COCONUT CRÈME COFFEE",
+      "slug": "coconut-creme-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/Coconut_Creme.jpg?v=1661457878",
+      "price": 16.5,
+      "description": "Our Coconut Crème flavored coffee has a creamy coconut flavor and silky-rich texture. This slightly sweet coffee is medium roasted and has a mellow acidity to yield a smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Sweet",
+        "Flavor": "Coconut",
+        "Body": "Medium",
+        "Acidity": "Mellow",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "GROUND",
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/CoconutCremeWB12oz.jpg?v=placeholder",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "COLOMBIAN SUPREMO COFFEE",
+      "slug": "colombian-supremo-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/ColombianSupremo.jpg?v=1661458135",
+      "price": 16.5,
+      "description": "Our Colombian Supremo Single Origin coffee has a rich vanilla, caramel and chocolate flavor and aroma. It is medium-bodied with a bright acidity and has a clean finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Vanilla, Caramel & Chocolate",
+        "Flavor": "Vanilla, Caramel & Chocolate",
+        "Body": "Medium",
+        "Acidity": "Bright",
+        "Finish": "Clean"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/ColombianSupremoWB12oz.jpg?v=placeholder",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "DECAF HOUSE BLEND COFFEE",
+      "slug": "decaf-house-blend-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/Render_DecafHouseBlend.jpg?v=1671661728",
+      "price": 16.5,
+      "description": "Our Decaf House Blend has aromas and flavors that include dried fruit, toasted nuts, chocolate and caramel. Medium bodied coffee with a smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Dried Fruit",
+        "Flavor": "Chocolate, Caramel and Toasted Nuts",
+        "Body": "Medium - Full",
+        "Acidity": "Low - Medium",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/DecafHouseBlendWB12oz.jpg?v=placeholder",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "FRENCH VANILLA SUPREME COFFEE",
+      "slug": "french-vanilla-supreme-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/FrenchVanillaSupreme.jpg?v=1661458306",
+      "price": 16.5,
+      "description": "Our French Vanilla Supreme flavored coffee has a complex floral aroma and a rich, pure vanilla flavor. This subtly sweet, medium-roasted coffee has a mellow body and velvety, smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Floral",
+        "Flavor": "Vanilla",
+        "Body": "Mellow",
+        "Acidity": "Mellow",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "GROUND",
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/FrenchVanillaSupremeWB12oz.jpg?v=placeholder",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "HAZELNUT COFFEE",
+      "slug": "hazelnut-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/Hazlenut.jpg?v=1661458841",
+      "price": 16.5,
+      "description": "Our Hazelnut flavored coffee is smooth and nutty in aroma and has a rich, warm honey flavor. This slightly sweetened coffee is medium-bodied, low in acidity and yields a smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Smooth & Nutty",
+        "Flavor": "Honey",
+        "Body": "Medium",
+        "Acidity": "Low",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "GROUND",
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/HazelnutWB12oz.jpg?v=placeholder",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "IRISH CRÈME COFFEE",
+      "slug": "irish-creme-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/files/Irish_Cream.png?v=1746821595",
+      "price": 16.5,
+      "description": "Our Limited Edition Irish Crème flavored coffee is a balance of Irish Whiskey and cream flavor. It is medium bodied, has a medium acidity and smooth finish. Gloria Jean's Coffees beans and flavoring are non-alcoholic. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Sweet",
+        "Flavor": "Irish Whiskey & Cream",
+        "Body": "Medium",
+        "Acidity": "Medium",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "GROUND",
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/IrishCremeWB12oz.jpg?v=placeholder",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "SPECIAL BLEND AMERICAN COFFEE",
+      "slug": "special-blend-american-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/SpecialBlendAmerican.jpg?v=1661459239",
+      "price": 16.5,
+      "description": "Our Special Blend American coffee is a blend of three distinguished Arabica beans from Central America. It has rich, nutty chocolate and brown sugar aromas, stone fruit flavors and has a medium body and smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Nutty Chocolate & Brown Sugar",
+        "Flavor": "Stone Fruit",
+        "Body": "Medium",
+        "Acidity": "Medium",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "WHOLE BEAN"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        },
+        {
+          "type": "Subscribe And Save",
+          "discount": "10%",
+          "original_price": 16.5,
+          "discounted_price": 14.85
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/SpecialBlendAmericanWB12oz.jpg?v=placeholder",
+        "https://www.gloriajeans.com/cdn/shop/products/ButterToffeeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/BlueberrySunriseWB12oz.jpg?v=1661457790"
+      ],
+      "featured": true
+    },
+    {
+      "title": "TOASTED ALMOND CRÈME COFFEE",
+      "slug": "toasted-almond-creme-coffee",
+      "image": "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeWB12oz.jpg?v=1659727457",
+      "price": 16.5,
+      "description": "Our Limited Edition Flavored Coffee, Toasted Almond Crème, has the aroma of freshly roasted almonds. This medium roasted 100% Arabica coffee exudes earthy and stone fruit flavor notes, has a medium acidity and yields a satisfying body and smooth finish. 100% Arabica coffee beans.",
+      "attributes": {
+        "Aroma": "Toasted Almonds",
+        "Flavor": "Toasted Almonds",
+        "Body": "Medium",
+        "Acidity": "Medium",
+        "Finish": "Smooth"
+      },
+      "note": "* Does not contain nuts or dairy products.",
+      "sizes": [
+        {
+          "label": "12oz",
+          "types": [
+            "WHOLE BEAN",
+            "GROUND"
+          ]
+        }
+      ],
+      "purchase_options": [
+        {
+          "type": "Onetime Purchase",
+          "price": 16.5
+        }
+      ],
+      "tags": [
+        "Nut Free",
+        "Dairy Free",
+        "Gluten Free",
+        "Wheat Free"
+      ],
+      "images": [
+        "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeWB12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeGround12oz.jpg?v=1677080931",
+        "https://www.gloriajeans.com/cdn/shop/products/ToastedAlmondCremeCup.jpg?v=1677080931"
+      ],
+      "featured": false
+    }
+  ],
+  "section": [
+    {
+      "title": "Our Story",
+      "paragraphs": [
+        "Great coffee has been the driving passion for Gloria Jean's Coffees since 1979. From the first store that was opened by Gloria Jean Kvetko in Chicago, Illinois to the 600+ stores across 40 countries in operation today, we have maintained our commitment. We design our own blends and roasts - that's how we maintain our flavor famous consistency and quality.",
+        "Whether you are escaping the daily grind in one of our coffee houses or enjoying one of our premium brews at home, we are committed to delivering you a world-class coffee with every cup.",
+        "Thank you for choosing Gloria Jean's Coffees."
+      ],
+      "image": "https://www.gloriajeans.com/cdn/shop/files/AboutPageBanner_ABitAboutUs_960x567_efa395bb-54db-4f8a-8335-a34c1d91283e.jpg?v=1656573808",
+      "reverse": false
+    },
+    {
+      "title": "Our Mission",
+      "paragraphs": [
+        "Gloria Jean’s Coffees is committed to building a unified family who consistently serve the highest quality coffee and provide outstanding and personalised service in a vibrant store atmosphere."
+      ],
+      "image": "https://www.gloriajeans.com/cdn/shop/files/AboutPageBanner_OurVision_960x567_d4b6d165-9e34-4781-b0da-9a863d7fa7f5.jpg?v=1656573846",
+      "reverse": true
+    },
+    {
+      "title": "Our Values",
+      "paragraphs": [
+        "Our four values reflect who we are, and how we approach everything we do.",
+        "These are not values that change from time to time, situation to situation or person to person, but rather they are the underpinning of our company culture.",
+        "By maintaining these core values, regardless of how large a company we become, we can preserve what has always been special about our brand.",
+        "*Partnerships based on integrity and trust",
+        "*Commitment to excellence and innovation",
+        "*A culture of joy and passion",
+        "*Belief in people, building & changing lives"
+      ],
+      "image": "https://www.gloriajeans.com/cdn/shop/files/about-img3.png?v=1652188358",
+      "reverse": false
+    },
+    {
+      "title": "Sustainability",
+      "paragraphs": [
+        "We take our coffee very seriously at Gloria Jean’s Coffees, so not only does it taste great, but we also make sure we buy from suppliers that look after both their workers and the environment.",
+        "Our coffee beans are sourced from all over the world and from many different farms of all types and sizes – large plantations, co-operative groups and tiny family farms. This means that there is no one size fits all approach to buying responsibly, but we are focused on promoting sustainable farming and a better outcome for all."
+      ],
+      "image": "https://www.gloriajeans.com/cdn/shop/files/AboutPageBanner_Sustainability_960x567_ebf04f9b-cc25-40d6-87ca-8be02d7fdeb0.jpg?v=1656573887",
+      "reverse": true
+    }
+  ]
+}
