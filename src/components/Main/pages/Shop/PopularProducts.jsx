@@ -8,12 +8,23 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useBasket } from "../../../Basket/BasketContext";
 import CoffeeAPI from "../../../Services/CoffeeAPI";
+import CoffeeLoader from "../../../Loaders/CoffeeLoader";
 
 function PopularProducts() {
   const [productsData, setProductsData] = useState([]);
   const { addToBasket } = useBasket();
   const api = new CoffeeAPI();
+  const handleAddToBasket = (product) => {
+  const quantity = 1;
+  const selected =
+      product.sizes?.[0]?.label && product.sizes[0].types?.[0]
+        ? `${product.sizes[0].label} / ${product.sizes[0].types[0]}`
+        : "";
+    const selectedOption = "onetime";
+    const totalPrice = product.price * quantity;
 
+    addToBasket({ ...product, selected, selectedOption, quantity, totalPrice });
+  };
   useEffect(() => {
     const fetchPopularProducts = async () => {
       const data = await api.getPopularProducts();
@@ -24,7 +35,7 @@ function PopularProducts() {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
-  if (productsData.length === 0) return <div className="text-center py-10">Yüklənir...</div>;
+  if (productsData.length === 0) return <CoffeeLoader />
 
   return (
     <section className="bg-white flex justify-center">

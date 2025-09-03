@@ -8,6 +8,7 @@ import { GrPrevious, GrNext } from "react-icons/gr";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import CoffeeAPI from "../../../Services/CoffeeAPI";
+import CoffeeFeedbacksLoader from "../../../Loaders/CoffeeFeedbacksLoader";
 
 function Feedbacks() {
   const [feedbacks, setFeedbacks] = useState([]);
@@ -27,7 +28,7 @@ function Feedbacks() {
   }, []);
 
   if (feedbacks.length === 0) {
-    return <div className="text-center py-10">Yüklənir...</div>;
+    return <CoffeeFeedbacksLoader />
   }
 
   return (

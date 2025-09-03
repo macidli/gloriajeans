@@ -5,6 +5,7 @@ import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CoffeeAPI from "../../../../Services/CoffeeAPI";
+import CoffeeLoader from "../../../../Loaders/CoffeeLoader"
 
 function SwiperM() {
   const swiperRef = useRef(null);
@@ -33,10 +34,10 @@ function SwiperM() {
     swiper.on("slideChange", () => {
       setActiveIndex(swiper.activeIndex);
     });
-  }, [sliderData]); // sliderData yüklənəndən sonra
+  }, [sliderData]); 
 
   if (!sliderData.length) {
-    return <div>Yüklənir...</div>; // Loading göstəricisi
+    return <CoffeeLoader />
   }
 
   return (

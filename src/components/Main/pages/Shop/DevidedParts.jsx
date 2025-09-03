@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import { useBasket } from "../../../Basket/BasketContext";
 import CoffeeAPI from "../../../Services/CoffeeAPI";
+import CoffeeCircleLoader from "../../../Loaders/CoffeeCircleLoader";
 
 function DevidedParts() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -63,7 +64,7 @@ function DevidedParts() {
   }, []);
 
   if (productsData.length === 0) {
-    return <div className="text-center py-10">Yüklənir...</div>;
+    return <CoffeeCircleLoader />
   }
 
   const activeCategory = menuItems[activeIndex];

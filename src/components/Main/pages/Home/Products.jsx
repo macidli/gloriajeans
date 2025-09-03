@@ -93,6 +93,11 @@ function Products() {
             ))}
           </Swiper>
         </div>
+        <Link to="/all-products">
+            <div className="w-[205px] h-[50px] text-[#f57f29] bg-[#fff] uppercase font-bold flex justify-center items-center border-[2px] border-[#f57f29] cursor-pointer hover:text-[#fff] hover:bg-[#f57f29] transition duration-400">
+              Shop all
+            </div>
+        </Link>
       </div>
     </section>
   );
