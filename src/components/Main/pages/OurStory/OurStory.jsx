@@ -1,29 +1,22 @@
 import React, { useEffect, useState } from "react";
 import Section from "./Section";
+import CoffeeAPI from "../../../Services/CoffeeAPI";
+import OurStorySkeleton from "./OurStorySkeleton";
 
 function OurStory() {
-  const [sectionsData, setSectionsData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [sectionsData, setSectionsData] = useState([]);
+  const coffeeAPI = new CoffeeAPI();
 
   useEffect(() => {
-    fetch("../../../../../public/Data/SectionData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setSectionsData(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Sections data yüklənmədi:", err);
-        setLoading(false);
-      });
+    const fetchSections = async () => {
+      const data = await coffeeAPI.getSectionsData();
+      setSectionsData(data);
+    };
+    fetchSections();
   }, []);
 
-  if (loading) {
-    return <p>Yüklənir...</p>;
-  }
-
-  if (!Array.isArray(sectionsData) || sectionsData.length === 0) {
-    return <p>Data tapılmadı!</p>;
+  if (!sectionsData.length) {
+    return <OurStorySkeleton reverse={false} paragraphsCount={4}  />; 
   }
 
   return (
@@ -43,4 +36,3 @@ function OurStory() {
 }
 
 export default OurStory;
-

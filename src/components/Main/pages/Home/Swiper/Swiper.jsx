@@ -4,21 +4,24 @@ import "swiper/css";
 import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CoffeeAPI from "../../../../Services/CoffeeAPI";
 
-function HomeLayout() {
+function SwiperM() {
   const swiperRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [sliderData, setSliderData] = useState([]);
+  const coffeeAPI = new CoffeeAPI();
 
   useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
 
   useEffect(() => {
-    fetch("../../../../../../public/Data/DataSwiper.json")  // JSON faylın yolunu düzgün göstər
-      .then((res) => res.json())
-      .then((data) => setSliderData(data))
-      .catch((err) => console.error("Slider data yüklənmədi:", err));
+    const fetchSlider = async () => {
+      const data = await coffeeAPI.getSliderData();
+      setSliderData(data);
+    };
+    fetchSlider();
   }, []);
 
   useEffect(() => {
@@ -30,10 +33,10 @@ function HomeLayout() {
     swiper.on("slideChange", () => {
       setActiveIndex(swiper.activeIndex);
     });
-  }, [sliderData]);  // sliderData yüklənəndən sonra
+  }, [sliderData]); // sliderData yüklənəndən sonra
 
-  if (sliderData.length === 0) {
-    return <div>Yüklənir...</div>;  // Yüklənmə göstəricisi
+  if (!sliderData.length) {
+    return <div>Yüklənir...</div>; // Loading göstəricisi
   }
 
   return (
@@ -77,9 +80,11 @@ function HomeLayout() {
                     />
                   ))}
                 </div>
-                <div className="w-[205px] h-[50px] text-[#fff] bg-[#f57f29] uppercase font-bold flex justify-center items-center cursor-pointer hover:text-[#f57f29] hover:bg-[#fff] transition duration-400">
-                  {item.buttonText}
-                </div>
+                <a href="https://www.gloriajeans.com/pages/store-locator">
+                  <div className="w-[205px] h-[50px] text-[#fff] bg-[#f57f29] uppercase font-bold flex justify-center items-center cursor-pointer hover:text-[#f57f29] hover:bg-[#fff] transition duration-400">
+                    {item.buttonText}
+                  </div>
+                </a>
               </div>
             </div>
           </SwiperSlide>
@@ -109,4 +114,4 @@ function HomeLayout() {
   );
 }
 
-export default HomeLayout;
+export default SwiperM;

@@ -1,20 +1,22 @@
 import React, { useEffect, useState } from "react";
 import CoffeeBeans from "../CoffeeBeans";
 import OfferingCard from "./OfferingsCard";
+import CoffeeAPI from "../../../../Services/CoffeeAPI";
 
 function Offerings() {
-  const [offeringsData, setOfferingsData] = useState(null);
+  const [offeringsData, setOfferingsData] = useState([]);
+  const coffeeAPI = new CoffeeAPI();
 
   useEffect(() => {
-    fetch('../../../../../../public/Data/OfferingsData.json') // JSON faylın serverdəki yeri
-      .then(res => res.json())
-      .then(data => setOfferingsData(data))
-      .catch(err => console.error("Offerings data yüklənmədi:", err));
+    coffeeAPI.getAllOfferings().then(setOfferingsData);
   }, []);
 
-  if (!offeringsData) {
-    return <div>Yüklənir...</div>;
-  }
+  if (!offeringsData.length) return <div>Yüklənir...</div>;
+
+  const buttonsConfig = [
+    { buttonText: "Shop Now", linkTo: "/shop" },
+    { buttonText: "View Menu", linkTo: "/menu" },
+  ];
 
   return (
     <section className="w-full py-20 bg-white px-4 md:px-10 lg:px-20 relative">
@@ -36,17 +38,23 @@ function Offerings() {
       </div>
 
       <div className="flex flex-col sm:flex-row sm:flex-wrap gap-6">
-        {offeringsData.map(
-          ({ title, description, imageUrl, buttonText }, index) => (
+        {offeringsData.map(({ title, description, imageUrl }, index) => {
+          const { buttonText, linkTo } = buttonsConfig[index] || {
+            buttonText: "Learn More",
+            linkTo: "/",
+          };
+
+          return (
             <OfferingCard
               key={index}
               title={title}
               description={description}
               imageUrl={imageUrl}
               buttonText={buttonText}
+              linkTo={linkTo}
             />
-          )
-        )}
+          );
+        })}
 
         <div className="hidden lg:block w-full lg:w-[32%] aspect-[579/684]"></div>
       </div>

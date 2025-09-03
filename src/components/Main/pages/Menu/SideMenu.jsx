@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from "react";
+import CoffeeAPI from "../../../Services/CoffeeAPI";
 
 function SideMenu() {
   const toId = (str) => str.toLowerCase().replace(/\s+/g, "-");
   const [activeId, setActiveId] = useState(toId("Cookie Chillers"));
   const [barStyle, setBarStyle] = useState({ top: 0, height: 0, opacity: 1 });
-  const [menuData, setMenuData] = useState(null);
+  const [menuData, setMenuData] = useState([]);
+  const coffeeAPI = new CoffeeAPI();
 
-  // MenuData JSON-u fetch edirik
+
   useEffect(() => {
-    fetch("../../../../../public/Data/MenuData.json")
-      .then((res) => res.json())
-      .then((data) => setMenuData(data))
-      .catch((err) => {
-        console.error("Menu data yüklənmədi:", err);
-      });
+    const fetchMenu = async () => {
+      const data = await coffeeAPI.getMenuData();
+      setMenuData(data);
+    };
+    fetchMenu();
   }, []);
 
   const updateBarPosition = (id) => {
@@ -34,7 +35,7 @@ function SideMenu() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (!menuData) return;
+      if (!menuData.length) return;
 
       let currentActiveId = activeId;
 
@@ -51,13 +52,13 @@ function SideMenu() {
           }
         }
       }
+
       if (currentActiveId !== activeId) {
         setActiveId(currentActiveId);
       }
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, [activeId, menuData]);
 
@@ -69,9 +70,7 @@ function SideMenu() {
     }
   };
 
-  if (!menuData) {
-    return <div>Yüklənir...</div>;
-  }
+
 
   return (
     <div className="sticky top-30 h-screen md:flex flex-col hidden w-[200px] xl:w-[250px] border-r border-[#e0e0e0] ">

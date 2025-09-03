@@ -1,31 +1,31 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 import SideMenu from "./SideMenu";
 import BottomMenu from "./BottomMenu";
 import Details from "./Details";
+import CoffeeAPI from "../../../Services/CoffeeAPI";
+import MainMenuSkeleton from "./Skeletons/MainMenuSkeleton";
 
 function MainMenu() {
-  const [menuData, setMenuData] = useState(null);
+  const [menuData, setMenuData] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
-
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-      once: true,
-    });
-
-    fetch("/Data/MenuData.json")
-      .then((res) => res.json())
-      .then((data) => setMenuData(data))
-      .catch((err) => console.error("Menu data yüklənmədi:", err));
-  }, []);
+  const coffeeAPI = new CoffeeAPI();
 
   const toId = (str) => str.toLowerCase().replace(/\s+/g, "-");
 
-  if (!menuData) return <div>Yüklənir...</div>;
+  useEffect(() => {
+    AOS.init({ duration: 800, easing: "ease-in-out", once: true });
+
+    const fetchMenu = async () => {
+      const data = await coffeeAPI.getMenuData();
+      setMenuData(data);
+    };
+    fetchMenu();
+  }, []);
+
+  if (!menuData.length) return <MainMenuSkeleton />;
 
   return (
     <>

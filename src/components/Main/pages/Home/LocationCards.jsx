@@ -9,7 +9,7 @@ function LocationCards() {
       duration: 1000,
       once: true,
     });
-    AOS.refresh(); // Refresh burada vacibdir
+    AOS.refresh(); 
   }, []);
 
   return (
@@ -54,7 +54,7 @@ function LocationCards() {
               hover:text-white hover:bg-[#77c0b7] 
               transition-colors duration-500 ease-in-out"
           >
-            Find my store
+            <a href="https://www.gloriajeans.com/pages/store-locator">Find my store</a>
           </div>
 
           <div className="hidden md:block bottom-[5px] absolute right-[400px] nine:right-[450px] lg:right-[500px]">

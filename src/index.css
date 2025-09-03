@@ -3,6 +3,8 @@
 
 
 @import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
 
 @theme{
     --font-Montserrat: Montserrat , 'sans-serif';
@@ -10,11 +12,16 @@
 
 
 @theme{
+    --breakpoint-esmall:335px;
     --breakpoint-nine: 945px;
+    --breakpoint-thousand:1000px;
     --breakpoint-prexl: 1122px;
 }
 
-
+.flowbite{
+  background-color: #f9f9f9!important; 
+}
+.shsh{background-color: #f9f9f9!important;}
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -42,7 +49,7 @@
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 1.8em !important; /* burada ölçünü dəyiş */
+  font-size: 1.8em !important; 
 }
 
 @media only screen and (max-width: 1280px) {

@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 
 function CoffeeBeans({ src, className = "", style = {}, alt = "", speed = 170, range = 15 }) {

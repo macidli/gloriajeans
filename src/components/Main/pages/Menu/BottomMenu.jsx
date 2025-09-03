@@ -1,26 +1,27 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { PiCirclesFourFill } from "react-icons/pi";
 import { LiaTimesSolid } from "react-icons/lia";
+import CoffeeAPI from "../../../Services/CoffeeAPI";
 
 function BottomMenu() {
-  const [menuData, setMenuData] = useState(null);
+  const [menuData, setMenuData] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
-  const toId = (str) => str.toLowerCase().replace(/\s+/g, "-");
   const [activeId, setActiveId] = useState(null);
+  const coffeeAPI = new CoffeeAPI();
+
+  const toId = (str) => str.toLowerCase().replace(/\s+/g, "-");
 
   useEffect(() => {
-    fetch("../../../../../public/Data/")
-      .then((res) => res.json())
-      .then((data) => {
-        setMenuData(data);
-        // İlk subCategory üçün default aktiv id təyin etmək:
-        if (data.length && data[0].subCategories.length) {
-          setActiveId(toId(data[0].subCategories[0].name));
-        }
-      })
-      .catch((err) => {
-        console.error("Menu data yüklənmədi:", err);
-      });
+    const fetchData = async () => {
+      const data = await coffeeAPI.getMenuData();
+      setMenuData(data);
+
+      if (data.length && data[0].subCategories.length) {
+        setActiveId(toId(data[0].subCategories[0].name));
+      }
+    };
+
+    fetchData();
   }, []);
 
   const scrollToSection = (id) => {
@@ -31,9 +32,7 @@ function BottomMenu() {
     }
   };
 
-  if (!menuData) {
-    return <div>Yüklənir...</div>;
-  }
+  if (!menuData.length) return <div>Yüklənir...</div>;
 
   return (
     <>
@@ -43,9 +42,7 @@ function BottomMenu() {
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <div className="flex justify-center items-center gap-1">
-            <p className="font-Montserrat font-bold text-[1.2em] text-white">
-              Menu
-            </p>
+            <p className="font-Montserrat font-bold text-[1.2em] text-white">Menu</p>
             <PiCirclesFourFill className="text-white" />
           </div>
         </div>
@@ -70,13 +67,9 @@ function BottomMenu() {
         <div className="flex flex-col pl-4 pr-4 pb-4">
           {menuData.map((mainCat, index) => (
             <div key={index} className="flex flex-col">
-              <h3 className="font-Montserrat font-bold text-[1.1em] pt-[10px]">
-                {mainCat.mainCategory}
-              </h3>
+              <h3 className="font-Montserrat font-bold text-[1.1em] pt-[10px]">{mainCat.mainCategory}</h3>
               <menu
-                className={`font-Montserrat text-[.85em] leading-[2em] py-[10px] ${
-                  index === 0 ? "border-b border-[#e0e0e0]" : ""
-                }`}
+                className={`font-Montserrat text-[.85em] leading-[2em] py-[10px] ${index === 0 ? "border-b border-[#e0e0e0]" : ""}`}
               >
                 {mainCat.subCategories.map((subCat, subIndex) => {
                   const id = toId(subCat.name);
@@ -84,9 +77,7 @@ function BottomMenu() {
                   return (
                     <li
                       key={subIndex}
-                      className={`cursor-pointer transition-colors duration-700 ${
-                        isActive ? "text-[#f57f29]" : "hover:text-[#f57f29]"
-                      }`}
+                      className={`cursor-pointer transition-colors duration-700 ${isActive ? "text-[#f57f29]" : "hover:text-[#f57f29]"}`}
                       onClick={() => scrollToSection(id)}
                       style={{ padding: "4px 10px", fontWeight: "400" }}
                     >

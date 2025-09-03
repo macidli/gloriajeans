@@ -2,43 +2,29 @@ import { GrFacebookOption } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa6";
 import FooterAccordion from "./FooterAccordion";
 import { FooterData } from "./FooterData";
+import YellowBanner from "./YellowBanner";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="bg-[#231f20] md:bg-[url('https://www.gloriajeans.com/cdn/shop/t/42/assets/footer-cup-svg.svg?v=179731266760412349071692876113')] md:bg-no-repeat md:bg-right-bottom">
-      {/* Newsletter Section */}
+  
       <section>
-        <div className="bg-[#f57f29] w-full py-[60px] md:py-0 md:h-[160px] flex items-center">
-          <div className="max-w-[1050px] w-full mx-auto px-6 sm:px-10 flex flex-col md:flex-row gap-8 xl:gap-[50px] items-center justify-between">
-            <h1 className="text-white font-Montserrat font-bold text-[1em] sm:text-[1.2em] md:text-[1.1em] lg:text-[1.2em] xl:text-[1.6em] text-center md:text-left leading-snug">
-              NEVER MISS A GOOD DEAL! <br />
-              SIGN UP FOR OUR NEWSLETTER!
-            </h1>
-
-            <div className="flex items-center w-full sm:w-auto">
-              <input
-                type="email"
-                className="bg-white w-full sm:w-[352px] h-[55px] outline-0 placeholder-black pl-[20px] pr-[10px] text-[.9em]"
-                placeholder="Email Address"
-              />
-              <div className="bg-white h-[55px] w-[120px] flex justify-center items-center font-bold cursor-pointer border-l border-[#d9d9d9] pl-[20px]">
-                <p>JOIN</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <YellowBanner />
       </section>
 
-      {/* Desktop Footer */}
+
       <div className="px-[15px]">
         <div className="max-w-[1050px] w-full mx-auto py-[60px] md:py-[80px] hidden md:flex justify-between">
           <div className="text-white">
             <div className="pb-[20px]">
-              <img
-                className="w-[220px] lg:w-[300px]"
-                src="https://www.gloriajeans.com/cdn/shop/files/logo-footer_309x@2x.png?v=1652187271"
-                alt="logoo"
-              />
+             <Link to="/">
+                 <img
+                  className="w-[220px] lg:w-[300px]"
+                  src="https://www.gloriajeans.com/cdn/shop/files/logo-footer_309x@2x.png?v=1652187271"
+                  alt="logoo"
+                />
+             </Link>
             </div>
             <p style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 100 }}>
               Est. 1979,Chicago, Illinois
@@ -70,23 +56,38 @@ function Footer() {
                     fontWeight: 100,
                   }}
                 >
-                  {links.map(({ name, to }, linkIndex) => (
+                  {links.map(({ name, to, type }, linkIndex) => (
                     <li className="cursor-pointer" key={linkIndex}>
-                      <a href={to}>{name}</a>
+                      {type === "internal" ? (
+                        <Link to={to}>{name}</Link> 
+                      ) : (
+                        <a
+                          href={to}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {name}
+                        </a>
+                      )}
                     </li>
                   ))}
                 </ul>
               </div>
             ))}
           </div>
+
         </div>
 
-        {/* Desktop Bottom Bar */}
+ 
         <div className="border-t-[1px] border-[#7a7979] hidden md:flex">
           <div className="w-full flex h-[90px] max-w-[1050px] mx-auto">
             <div className="flex items-center justify-end text-[#fff] pr-[40px] gap-[25px] border-r-[1px] w-[300px] border-[#7a7979]">
-              <GrFacebookOption className="cursor-pointer" size={25} />
-              <FaInstagram className="cursor-pointer" size={25} />
+              <a href="https://www.facebook.com/gloriajeanscoffeesusa" target="_blank">
+                 <GrFacebookOption className="cursor-pointer" size={25} />
+              </a>
+              <a href="https://www.instagram.com/gloriajeanscoffeesusa/" target="_blank" > 
+                <FaInstagram className="cursor-pointer" size={25} />
+              </a>
             </div>
 
             <div className="flex justify-end w-full">
@@ -97,7 +98,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Mobile Accordion Footer */}
+
         <FooterAccordion footerData={FooterData} />
       </div>
     </footer>

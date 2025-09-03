@@ -27,19 +27,24 @@ function SideLeftbar({ sideBarOpen, sideBarClose }) {
              <div>Our Story</div>
          </li>
         </Link>
-        <li className="border-b-[1px] border-[#d9d9d9] py-[15px] font-[800] text-[#f57f29]">
-          <div>Shop</div>
-        </li>
+        <Link to="/shop">
+          <li className="border-b-[1px] border-[#d9d9d9] py-[15px] font-[800] text-[#f57f29]">
+           <div>Shop</div>
+         </li>
+        </Link>
         <li className="  border-b-[1px] border-[#d9d9d9] py-[15px] font-[800]">
-          <div className="flex gap-[5px]">
-            <span>
-              <FaLocationDot size={20} className="text-[#f57f29]" />
-            </span>{" "}
-            Store Locator
-          </div>
+          <a href="https://www.gloriajeans.com/pages/store-locators">
+            <div className="flex gap-[5px]">
+              <span>
+                <FaLocationDot size={20} className="text-[#f57f29]" />
+              </span>
+              Store Locator
+            </div>
+          </a>
+          
         </li>
         <li className="border-b-[1px] border-[#d9d9d9] py-[15px] font-[800]">
-          <div>Own a Franchise</div>
+          <a href="https://franchising.gloriajeans.com/" target="_blank"><div>Own a Franchise</div></a>
         </li>
       </menu>
     </div>

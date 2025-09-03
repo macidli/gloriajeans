@@ -7,8 +7,7 @@ export default function Details({ product, onClose }) {
   const guide = product.nutritional_guide;
   const [selectedSize, setSelectedSize] = useState("Small");
   const [adjustedGuide, setAdjustedGuide] = useState(guide);
-
-  // Multiplier
+ 
   const sizeMultiplier = {
     Small: 1,
     Regular: 1.5,
@@ -20,7 +19,7 @@ export default function Details({ product, onClose }) {
 
     const newGuide = Object.fromEntries(
       Object.entries(guide).map(([key, value]) => {
-        if (key === "note") return [key, value]; // note dəyişmir
+        if (key === "note") return [key, value];
         if (typeof value === "number") return [key, Math.round(value * sizeMultiplier[selectedSize])];
         if (typeof value === "string" && value.endsWith("g")) {
           const num = parseInt(value);
@@ -36,7 +35,7 @@ export default function Details({ product, onClose }) {
   return (
     <div className="fixed inset-0 z-[999999999999999999] flex items-center justify-center bg-black/50 p-4">
       <div className="bg-white w-full max-w-[1200px] pb-[30px] pt-[20px] shadow-lg overflow-y-auto max-h-[90vh] px-[30px]">
-        {/* Başlıq */}
+     
         <div className="flex justify-between items-center pl-0 p-4 border-b font-Montserrat border-[#aaa]">
           <h1 className="text-2xl font-bold">{product.name || "Madagascar Vanilla Caramel"}</h1>
           <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-full">
@@ -44,9 +43,9 @@ export default function Details({ product, onClose }) {
           </button>
         </div>
 
-        {/* Kontent */}
+     
         <div className="flex flex-col md:flex-row gap-8 p-6">
-          {/* Sol tərəf */}
+ 
           <div className="w-full lg:w-1/3">
             <p className="mb-2 font-mediu font-Montserrat">Select Size</p>
             <select
@@ -72,7 +71,7 @@ export default function Details({ product, onClose }) {
             </div>
           </div>
 
-          {/* Sağ tərəf */}
+      
           <div className="w-full lg:w-2/3 font-Montserrat">
             <h3 className="text-[1em] md:text-[1.5em] text-[#787878] font-bold mb-4 pb-[10px]">
               Nutritional Guide
