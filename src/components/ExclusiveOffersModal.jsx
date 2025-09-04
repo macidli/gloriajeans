@@ -18,7 +18,7 @@ const ExclusiveOffersModal = ({ isOpen, onClose, setSubmitted }) => {
   const handleSubmit = () => {
     if (email.includes("@")) {
       setSignedUp(true);
-      setSubmitted(true); 
+      setSubmitted(true);
     } else {
       alert("Please enter a valid email with @");
     }
@@ -30,16 +30,16 @@ const ExclusiveOffersModal = ({ isOpen, onClose, setSubmitted }) => {
       onClick={onClose}
     >
       <div
-        className="relative bg-white rounded-lg overflow-hidden max-w-2xl w-full flex flex-col md:flex-row transition-all duration-500"
+        className="relative bg-white rounded-lg overflow-hidden max-w-2xl w-full flex flex-row transition-all duration-500"
         onClick={(e) => e.stopPropagation()}
       >
         {!signedUp ? (
           <>
             <div className="flex-1 p-4 flex flex-col justify-center">
-              <h2 className="text-sm md:text-3xl font-bold text-[#f57f29] mb-2 md:mb-4 font-Montserrat">
+              <h2 className=" text-[1em] md:text-3xl font-bold text-[#f57f29] mb-4 font-Montserrat">
                 Join the family!
               </h2>
-              <p className="text-gray-700 mb-2 md:mb-4 text-[11px] md:text-base font-Montserrat">
+              <p className="text-gray-700 text-[.8em] md:text-[1em] mb-4 font-Montserrat">
                 Hear about promotions & get email only offers when you join!
               </p>
               <input
@@ -47,11 +47,11 @@ const ExclusiveOffersModal = ({ isOpen, onClose, setSubmitted }) => {
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="border border-gray-300 rounded px-2 py-1 w-full mb-2 md:mb-4 focus:outline-none focus:border-[#f57f29] text-[11px] md:text-base"
+                className="border border-gray-300 rounded px-2 py-1 w-full mb-4 focus:outline-none focus:border-[#f57f29] text-base"
               />
               <button
                 onClick={handleSubmit}
-                className="bg-[#f57f29] text-white w-full py-1 rounded font-Montserrat text-[11px] md:text-base"
+                className="bg-[#f57f29] text-white w-full py-2 rounded font-Montserrat text-base"
               >
                 Continue
               </button>
@@ -66,21 +66,21 @@ const ExclusiveOffersModal = ({ isOpen, onClose, setSubmitted }) => {
             </div>
           </>
         ) : (
-          <div className="flex flex-col md:flex-row w-full">
+          <div className="flex w-full">
             <div className="flex-1 p-4 flex flex-col items-center justify-center">
               <img
                 src="https://d3k81ch9hvuctc.cloudfront.net/company/SK5caF/images/46cc5dd9-50d4-462a-b397-ae5dad8b80b5.png"
                 alt="Check Email"
-                className="w-16 h-16 mb-4"
+                className="w-12 h-12 md:w-16 md:h-16 mb-4"
               />
-              <h2 className="text-[#f57f29] font-bold text-xl mb-2 font-Montserrat">
+              <h2 className="text-[#f57f29] font-bold text-lg md:text-xl mb-2 text-center font-Montserrat">
                 Thanks for signing up!
               </h2>
               <p className="text-gray-700 text-center text-sm md:text-base">
                 Check your email to confirm your subscription.
               </p>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 h-auto">
               <img
                 src="https://d3k81ch9hvuctc.cloudfront.net/company/SK5caF/images/1d89ce10-949b-4476-bb9f-dd5c1f33c023.jpeg"
                 alt="Exclusive Offer"
@@ -95,7 +95,7 @@ const ExclusiveOffersModal = ({ isOpen, onClose, setSubmitted }) => {
             onClose();
             setEmail("");
           }}
-          className="absolute top-2 right-2 text-black bg-white w-[26px] h-[26px] flex justify-center items-center rounded-full text-sm md:text-xl"
+          className="absolute top-2 right-2 text-black bg-white w-[26px] h-[26px] flex justify-center items-center rounded-full text-xl"
         >
           <HiXMark />
         </button>

@@ -8,6 +8,7 @@ import { Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { useBasket } from "../../../Basket/BasketContext";
 import CoffeeAPI from "../../../Services/CoffeeAPI";
+import CoffeeLoader from "../../../Loaders/CoffeeLoader"
 
 function Products() {
   const [productsData, setProductsData] = useState([]);
@@ -25,7 +26,7 @@ function Products() {
     fetchData();
   }, []);
 
-  if (!productsData.length) return <div>Yüklənir...</div>;
+  if (!productsData.length) return <CoffeeLoader />;
 
   const handleAddToBasket = (product) => {
     const quantity = 1;

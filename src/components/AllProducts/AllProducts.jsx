@@ -7,6 +7,7 @@ import CoffeeBeans from "../Main/pages/Home/CoffeeBeans";
 import useTitle from "../hooks/useTitle";
 import Sidebar from "./Sidebar";
 import CoffeeAPI from "../Services/CoffeeAPI"; 
+import { useBasket } from "../Basket/BasketContext"; 
 
 function AllProducts() {
   useTitle("All Products");
@@ -14,6 +15,7 @@ function AllProducts() {
   const [products, setProducts] = useState([]);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  const { addToBasket } = useBasket();
   const api = new CoffeeAPI();
 
   useEffect(() => {
@@ -35,6 +37,15 @@ function AllProducts() {
       );
       setProducts(filtered);
     }
+  };
+
+  const handleAddToBasket = (product) => {
+    const quantity = 1;
+    const selected = product.sizes?.[0]?.label + " / " + product.sizes?.[0]?.types?.[0] || "";
+    const selectedOption = "onetime"; 
+    const totalPrice = product.price * quantity;
+
+    addToBasket({ ...product, selected, selectedOption, quantity, totalPrice });
   };
 
   return (
@@ -70,7 +81,6 @@ function AllProducts() {
         </div>
       </div>
 
-  
       <div className="flex flex-col px-[30px] md:px-[50px]">
         <div className="flex justify-between py-[60px]">
           <h1 className="text-[1.3em] md:text-[2em] font-bold font-Montserrat">
@@ -86,7 +96,6 @@ function AllProducts() {
         <hr className="text-[#a3a3a3bd]" />
       </div>
 
- 
       <Sidebar
         isOpen={isSidebarOpen}
         toggleSidebar={toggleSidebar}
@@ -110,9 +119,12 @@ function AllProducts() {
                   className="w-full h-full object-cover object-center transition-transform duration-500 ease-in-out lg:group-hover:scale-95"
                 />
               </Link>
-              <div className="absolute bottom-[30px] left-1/2 -translate-x-1/2 opacity-0 translate-y-4 pointer-events-none lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:group-hover:pointer-events-auto transition-all duration-500 ease-in-out w-[165px] h-[40px] text-[.9em] text-[#f57f29] bg-[#fff] uppercase font-bold flex justify-center items-center cursor-pointer hover:text-[#fff] hover:bg-[#f57f29]">
+              <button
+                onClick={() => handleAddToBasket(product)}
+                className="absolute bottom-[30px] left-1/2 -translate-x-1/2 opacity-0 translate-y-4 pointer-events-none lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:group-hover:pointer-events-auto transition-all duration-500 ease-in-out w-[165px] h-[40px] text-[.9em] text-[#f57f29] bg-[#fff] uppercase font-bold flex justify-center items-center cursor-pointer hover:text-[#fff] hover:bg-[#f57f29]"
+              >
                 Add to cart
-              </div>
+              </button>
             </div>
 
             <div className="flex flex-col items-center justify-center bg-[#d3d2d244] h-[200px] px-[15px] w-[95%]">
@@ -126,9 +138,12 @@ function AllProducts() {
                 $ {product.price}
               </p>
 
-              <div className="w-[165px] lg:hidden h-[40px] mt-[20px] my-[20px] text-[.9em] text-[#fff] bg-[#f57f29] uppercase font-bold flex justify-center items-center cursor-pointer hover:text-[#f57f29] hover:bg-[#fff] transition duration-400">
+              <button
+                onClick={() => handleAddToBasket(product)}
+                className="w-[165px] lg:hidden h-[40px] mt-[20px] my-[20px] text-[.9em] text-[#fff] bg-[#f57f29] uppercase font-bold flex justify-center items-center cursor-pointer hover:text-[#f57f29] hover:bg-[#fff] transition duration-400"
+              >
                 Add to cart
-              </div>
+              </button>
             </div>
           </div>
         ))}
